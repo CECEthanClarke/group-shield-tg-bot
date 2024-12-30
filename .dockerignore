@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+.DS_Store
+.env
+dist
+*.log
+coverage
+config
+.vscode
+README.md
+push-docker-hub.sh
+config.yaml
+yarn.lock
+database.db

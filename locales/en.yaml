@@ -1,0 +1,23 @@
+command_start_description: Start
+command_mute_description: Mute someone in the group
+command_unmute_description: Unmute someone in the group
+command_help_description: Help
+command_kickout_description: Kick out of the group
+
+button_invite_to_join_group: Invite to join the group
+button_click_to_verify: Click to verify
+
+reply_start_text: This is an open-source group management bot with automatic verification, mute, and quick kick functions.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Welcome ${user_name} to ${chat_title} group! Please complete the verification to join. You have ${seconds} seconds to finish the verification, or it will expire.
+reply_verifying_send_text: You are verifying in the ${chat_title} group. Please answer the following question by clicking one of the options below.
+reply_you_dont_have_verification_in_group: You don’t have the required verification in this group.
+reply_verification_expired: This verification has expired. Please return to the group and click to verify again.
+reply_wrong_choice_text: Wrong choice, the correct answer is ${answer}. You have been kicked out of the group. You can rejoin the group in ${seconds} seconds after re-verification.
+reply_chosen_answer_correct_text: Your chosen answer is correct. You can now speak freely in the group.
+reply_please_reply_to_a_message: Please reply to a specific message first before executing this command.
+reply_not_have_permissions: You do not have sufficient permissions to execute this command.
+reply_insufficient_bot_permissions: Failed, likely due to insufficient bot permissions.
+reply_mute_successful: Mute successful.
+reply_unmute_successful: Unmute successful.
+reply_kickout_successful: Kick out successful.
