@@ -17,4 +17,4 @@ services:
       - RE_JOIN_SECONDS=120
       - LANGUAGE_CODE=en
     volumes:
-      - "./database.db:/app/database.db"
+      - "./config:/app/config"

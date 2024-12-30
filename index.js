@@ -8,11 +8,11 @@ require('dotenv').config();
 const util = require('./util');
 const fs = require('fs')
 const YAML = require('yaml')
-global.textConfig = YAML.parse(fs.readFileSync(`${__dirname}/locales/${process.env.LANGUAGE_CODE}.yaml`, 'utf-8'));
+global.textConfig = YAML.parse(fs.readFileSync(`./locales/${process.env.LANGUAGE_CODE}.yaml`, 'utf-8'));
 console.log(textConfig);
 
 const sqlite3 = require('sqlite3')
-const db = new sqlite3.Database("./database.db", (err) => {
+const db = new sqlite3.Database("./config/database.db", (err) => {
     if (err) {
         console.log('Could not connect to database', err)
     } else {
