@@ -27,6 +27,7 @@ Once filled in, you’re good to go.
 - VERIFICATION_EXPIRATION_SECONDS – Defaults to 120 seconds. This means users have 120 seconds to complete the verification process when joining the group. If they fail, they will be removed.
 - RE_JOIN_SECONDS – Defaults to 120 seconds. After being removed, users can rejoin the group after 120 seconds.
 - LANGUAGE_CODE – Defaults to “en”.
+- ADMIN_CHAT_ID - Enter your chat ID. After entering, the robot will notify you once it has started.
 
 ### Step 3: Start the Bot
 After configuring everything, start the bot by running the following command:

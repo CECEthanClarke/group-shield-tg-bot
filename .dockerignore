@@ -12,3 +12,4 @@ push-docker-hub.sh
 config.yaml
 yarn.lock
 database.db
+check.sh

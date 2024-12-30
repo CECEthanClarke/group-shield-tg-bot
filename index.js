@@ -418,6 +418,16 @@ async function chatMemberUpdated(chat_member_updated) {
 
 checkGroupUserVerify();
 deleteExpiredQuiz();
+notify();
+
+async function notify() {
+    if (process.env.ADMIN_CHAT_ID) {
+        bot.sendMessage(process.env.ADMIN_CHAT_ID, 'Bot started', {
+            parse_mode: "HTML"
+        });
+    }
+}
+
 async function checkGroupUserVerify() {
     await util.sleep(2000);
     while(true) {
