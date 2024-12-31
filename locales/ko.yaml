@@ -1,0 +1,24 @@
+command_start_description: 시작
+command_mute_description: 그룹에서 누군가 음소거하기
+command_unmute_description: 그룹에서 누군가의 음소거를 해제하기
+command_help_description: 도와주세요
+command_kickout_description: 그룹에서 나가다
+button_invite_to_join_group: 그룹에 가입하도록 초대하기
+button_click_to_verify: 확인하려면 클릭하세요
+reply_bot_started: 봇이 성공적으로 시작되었습니다.
+reply_start_text: 자동 검증, 음소거 및 신속한 퇴장 기능을 갖춘 오픈 소스 그룹 관리 봇입니다.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: ${user_name}님을 ${chat_title} 그룹에 환영합니다! 참여하시려면
+  인증을 완료해 주십시오. 인증을 완료하시려면 ${seconds}초가 남았습니다. 시간이 만료됩니다.
+reply_verifying_send_text: ${chat_title} 그룹에서 확인 중입니다. 아래 옵션 중 하나를 클릭하여 질문에 답변해 주세요.
+reply_you_dont_have_verification_in_group: 이 그룹에서 요구되는 인증이 없습니다.
+reply_verification_expired: 이 인증이 만료되었습니다. 다시 그룹으로 돌아가서 확인을 클릭해 주세요.
+reply_wrong_choice_text: 잘못된 선택입니다. 정답은 ${answer}입니다. 당신은 그룹에서 추방되었습니다. 재확인 후
+  ${seconds}초 후에 그룹에 다시 참여할 수 있습니다.
+reply_chosen_answer_correct_text: 당신이 선택한 답변이 맞습니다. 이제 그룹에서 자유롭게 이야기할 수 있습니다.
+reply_please_reply_to_a_message: 먼저 특정 메시지에 답장한 후 이 명령을 실행하십시오.
+reply_not_have_permissions: 이 명령을 실행할 수 있는 충분한 권한이 없습니다.
+reply_insufficient_bot_permissions: 실패했습니다. 아마도 봇 권한이 부족하기 때문입니다.
+reply_mute_successful: 음소거 성공.
+reply_unmute_successful: 음소거 해제 성공.
+reply_kickout_successful: 퇴출 성공.

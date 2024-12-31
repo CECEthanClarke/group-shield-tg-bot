@@ -1,0 +1,332 @@
+{
+  "command_start_description": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "command_start_description",
+    "sign": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644"
+  },
+  "command_mute_description": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "command_mute_description",
+    "sign": "deb0fe7e32721baf66b18cf2829bf3525c664ca7f2472bd68445bd7b1871f111"
+  },
+  "command_unmute_description": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "command_unmute_description",
+    "sign": "f75ca9be98b61e778b8422f6b01a21293017543bfea3520be8adfae5aac3e6a7"
+  },
+  "command_help_description": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "command_help_description",
+    "sign": "b79cac926e0b2e347e72cc91d5174037c9e17ae7733fd7bdb570f71b10cd7bfc"
+  },
+  "command_kickout_description": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "command_kickout_description",
+    "sign": "71c29849e8895faa3151c3fd1b06a225eada56701957c997be0e8ac70f300506"
+  },
+  "button_invite_to_join_group": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "button_invite_to_join_group",
+    "sign": "48d289c53fa5428ed224bfc2c36311f1d391fca000c448c15cbbd2adbe90121b"
+  },
+  "button_click_to_verify": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "button_click_to_verify",
+    "sign": "ef80972e346013b1467ebbb6da022ae7c37b9a94e1aeef67afc5ed7fa313650d"
+  },
+  "reply_bot_started": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_bot_started",
+    "sign": "d34b8c9bd22d3c8105b016ca314d488dfc40ffc1034e5e5bd25b2b4cc1f2e466"
+  },
+  "reply_start_text": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_start_text",
+    "sign": "6011f9d571a494b91ea2066006cf836ea6eef531d42ad4882759422c42636004"
+  },
+  "reply_help_text": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_help_text",
+    "sign": "61ca526718f7ea44653a3b302a2e349722d50a4ede4e3d973c202318d0c4bf8f"
+  },
+  "reply_group_verification_text": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_group_verification_text",
+    "sign": "c56a82465225a7f5bc9282a4fd369fa12ac1acebc290d2c681670ca8caf93978"
+  },
+  "reply_verifying_send_text": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_verifying_send_text",
+    "sign": "e95db5837387a68ec99c252f5acfb3ca183e75e0c3e22b7c3a7c0f712ee26e7c"
+  },
+  "reply_you_dont_have_verification_in_group": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_you_dont_have_verification_in_group",
+    "sign": "2ed09918e6f3b0d93ecb6c42de6d14be7e95846cc7003e63987b9cb977ecb006"
+  },
+  "reply_verification_expired": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_verification_expired",
+    "sign": "07fc842a6c765009e5bc503c05fc322a6d8ac728b72b928910b4b822483993b9"
+  },
+  "reply_wrong_choice_text": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_wrong_choice_text",
+    "sign": "208c0e601fb42c9e9f7a088bce39272d21152e572a4064e6e934ea4d09df4abd"
+  },
+  "reply_chosen_answer_correct_text": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_chosen_answer_correct_text",
+    "sign": "d51e56798f5d807e8b209703cf41a1eeed7c54ec819cf59a8d3fbb0d850cfbc8"
+  },
+  "reply_please_reply_to_a_message": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_please_reply_to_a_message",
+    "sign": "5e72098b3eb8837f0d28f011afa671fb496ba3b84c88e70c8878d517fa59f099"
+  },
+  "reply_not_have_permissions": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_not_have_permissions",
+    "sign": "7f15bdc0a4f55e5924670b625ab5e96114b4c5b147c005d978531d848eb4d265"
+  },
+  "reply_insufficient_bot_permissions": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_insufficient_bot_permissions",
+    "sign": "75584e691ea9c1ce6b79334a269386c4a2982d179db4c9f34c3175e7b67ab436"
+  },
+  "reply_mute_successful": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_mute_successful",
+    "sign": "deee20e1791f91d3e236590d06d77b8761d11f4c828f57470cfca3e3fea447e3"
+  },
+  "reply_unmute_successful": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_unmute_successful",
+    "sign": "cd9cb53531bb041837eac25852dce408946b2577ee33bcb7e05d5529f9e0792d"
+  },
+  "reply_kickout_successful": {
+    "languageList": [
+      "zh",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "ko"
+    ],
+    "key": "reply_kickout_successful",
+    "sign": "3ac703763723bbd3d9c08dbfe69e111c3962d020c94971951ee5cbd6c3a69030"
+  }
+}

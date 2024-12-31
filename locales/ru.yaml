@@ -1,0 +1,30 @@
+command_start_description: Начало
+command_mute_description: Заглушить кого-то в группе
+command_unmute_description: Разрешить говорить кому-то в группе
+command_help_description: Помощь
+command_kickout_description: Исключить из группы
+button_invite_to_join_group: Пригласить вступить в группу
+button_click_to_verify: Нажмите для подтверждения
+reply_bot_started: Бот успешно запущен.
+reply_start_text: Это бот управления группами с открытым исходным кодом с
+  функциями автоматической верификации, отключения звука и быстрого исключения.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Добро пожаловать ${user_name} в группу
+  ${chat_title}! Пожалуйста, завершите проверку, чтобы присоединиться. У вас
+  есть ${seconds} секунд, чтобы завершить проверку, иначе она истечет.
+reply_verifying_send_text: Вы проходите проверку в группе ${chat_title}.
+  Пожалуйста, ответьте на следующий вопрос, нажав один из вариантов ниже.
+reply_you_dont_have_verification_in_group: У вас нет необходимой проверки в этой группе.
+reply_verification_expired: Эта проверка истекла. Пожалуйста, вернитесь в группу
+  и нажмите, чтобы проверить снова.
+reply_wrong_choice_text: Неправильный выбор, правильный ответ ${answer}. Вы были
+  исключены из группы. Вы сможете снова присоединиться к группе через ${seconds}
+  секунд после повторной проверки.
+reply_chosen_answer_correct_text: Ваш выбранный ответ правильный. Теперь вы можете свободно говорить в группе.
+reply_please_reply_to_a_message: Пожалуйста, сначала ответьте на конкретное
+  сообщение, прежде чем выполнять эту команду.
+reply_not_have_permissions: У вас нет достаточных прав для выполнения этой команды.
+reply_insufficient_bot_permissions: Ошибка, вероятно, из-за недостаточных прав бота.
+reply_mute_successful: Оглушение успешно.
+reply_unmute_successful: Размутирование успешно.
+reply_kickout_successful: Выгнать успешно.

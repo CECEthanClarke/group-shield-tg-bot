@@ -1,0 +1,23 @@
+command_start_description: スタート
+command_mute_description: グループ内の誰かをミュートする
+command_unmute_description: グループ内の誰かのミュートを解除する
+command_help_description: 助けて
+command_kickout_description: グループから追放する
+button_invite_to_join_group: グループに参加する招待
+button_click_to_verify: クリックして確認
+reply_bot_started: ボットは正常に起動しました。
+reply_start_text: これは自動認証、ミュート、迅速なキック機能を備えたオープンソースのグループ管理ボットです。
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: ようこそ ${user_name} さん、${chat_title}
+  グループへ！参加するために認証を完了してください。認証を終わらせるまでに ${seconds} 秒あります。さもなければ、認証は失効します。
+reply_verifying_send_text: ${chat_title}グループで確認しています。以下のオプションのいずれかをクリックして、次の質問に答えてください。
+reply_you_dont_have_verification_in_group: このグループには必要な認証がありません。
+reply_verification_expired: この確認は期限切れです。グループに戻って再度確認をクリックしてください。
+reply_wrong_choice_text: 間違った選択です。正しい答えは${answer}です。あなたはグループから追放されました。再確認後、${seconds}秒でグループに再参加できます。
+reply_chosen_answer_correct_text: あなたの選択した回答は正しいです。これでグループ内で自由に話すことができます。
+reply_please_reply_to_a_message: このコマンドを実行する前に、特定のメッセージに返信してください。
+reply_not_have_permissions: このコマンドを実行するための十分な権限がありません。
+reply_insufficient_bot_permissions: 失敗しました。おそらくボットの権限が不十分です。
+reply_mute_successful: ミュート成功。
+reply_unmute_successful: ミュート解除が成功しました。
+reply_kickout_successful: キックアウトに成功しました。

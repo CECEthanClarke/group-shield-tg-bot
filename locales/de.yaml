@@ -1,0 +1,33 @@
+command_start_description: Start
+command_mute_description: Jemanden in der Gruppe stummschalten
+command_unmute_description: Jemanden in der Gruppe stummschalten
+command_help_description: Hilfe
+command_kickout_description: Hau den aus der Gruppe raus
+button_invite_to_join_group: Einladung zur Gruppe beizutreten
+button_click_to_verify: Klicken Sie, um zu bestätigen
+reply_bot_started: Der Bot wurde erfolgreich gestartet.
+reply_start_text: Dies ist ein Open-Source-Bot zur Gruppenverwaltung mit
+  automatischer Verifizierung, Stummschaltung und schnellen Kickfunktionen.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Willkommen ${user_name} in der Gruppe
+  ${chat_title}! Bitte schließen Sie die Verifizierung ab, um beizutreten. Sie
+  haben ${seconds} Sekunden, um die Verifizierung abzuschließen, ansonsten läuft
+  sie ab.
+reply_verifying_send_text: Sie verifizieren sich in der Gruppe ${chat_title}.
+  Bitte beantworten Sie die folgende Frage, indem Sie auf eine der
+  untenstehenden Optionen klicken.
+reply_you_dont_have_verification_in_group: Du hast die erforderliche Verifizierung in dieser Gruppe nicht.
+reply_verification_expired: Diese Überprüfung ist abgelaufen. Bitte kehren Sie
+  zur Gruppe zurück und klicken Sie, um erneut zu überprüfen.
+reply_wrong_choice_text: Falsche Wahl, die richtige Antwort ist ${answer}. Du
+  wurdest aus der Gruppe ausgeschlossen. Du kannst in ${seconds} Sekunden nach
+  einer erneuten Überprüfung wieder der Gruppe beitreten.
+reply_chosen_answer_correct_text: Ihre gewählte Antwort ist korrekt. Sie können
+  jetzt frei in der Gruppe sprechen.
+reply_please_reply_to_a_message: Bitte antworte zuerst auf eine bestimmte
+  Nachricht, bevor du diesen Befehl ausführst.
+reply_not_have_permissions: Sie haben nicht genügend Berechtigungen, um diesen Befehl auszuführen.
+reply_insufficient_bot_permissions: Fehlgeschlagen, wahrscheinlich aufgrund unzureichender Bot-Berechtigungen.
+reply_mute_successful: Stummschaltung erfolgreich.
+reply_unmute_successful: Stummschaltung erfolgreich.
+reply_kickout_successful: Kick-out erfolgreich.

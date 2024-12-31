@@ -1,0 +1,31 @@
+command_start_description: Iniciar
+command_mute_description: Silenciar a alguien en el grupo
+command_unmute_description: Desilenciar a alguien en el grupo
+command_help_description: Ayuda
+command_kickout_description: Expulsar del grupo
+button_invite_to_join_group: Invitar a unirse al grupo
+button_click_to_verify: Haz clic para verificar
+reply_bot_started: El bot se ha iniciado con éxito.
+reply_start_text: Este es un bot de gestión de grupos de código abierto con
+  funciones de verificación automática, silencio y expulsión rápida.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: ¡Bienvenido ${user_name} al grupo ${chat_title}!
+  Por favor completa la verificación para unirte. Tienes ${seconds} segundos
+  para finalizar la verificación, o expirará.
+reply_verifying_send_text: Estás verificando en el grupo ${chat_title}. Por
+  favor, responde a la siguiente pregunta haciendo clic en una de las opciones
+  abajo.
+reply_you_dont_have_verification_in_group: No tienes la verificación requerida en este grupo.
+reply_verification_expired: Esta verificación ha expirado. Por favor, regresa al
+  grupo y haz clic para verificar de nuevo.
+reply_wrong_choice_text: Elección incorrecta, la respuesta correcta es
+  ${answer}. Has sido expulsado del grupo. Puedes volver a unirte al grupo en
+  ${seconds} segundos después de la re-verificación.
+reply_chosen_answer_correct_text: Tu respuesta elegida es correcta. Ahora puedes hablar libremente en el grupo.
+reply_please_reply_to_a_message: Por favor, responde a un mensaje específico
+  primero antes de ejecutar este comando.
+reply_not_have_permissions: No tienes permisos suficientes para ejecutar este comando.
+reply_insufficient_bot_permissions: Fallido, probablemente debido a permisos insuficientes del bot.
+reply_mute_successful: Silencio exitoso.
+reply_unmute_successful: Desactivar silencio exitoso.
+reply_kickout_successful: Expulsión exitosa.

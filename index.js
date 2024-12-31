@@ -8,8 +8,10 @@ require('dotenv').config();
 const util = require('./util');
 const fs = require('fs')
 const YAML = require('yaml')
-global.textConfig = YAML.parse(fs.readFileSync(`./locales/${process.env.LANGUAGE_CODE}.yaml`, 'utf-8'));
-console.log(textConfig);
+const i18n = require('./i18n')
+i18n.init();
+global.textConfig = i18n.get(process.env.LANGUAGE_CODE);
+// console.log(textConfig);
 
 const sqlite3 = require('sqlite3')
 const db = new sqlite3.Database("./config/database.db", (err) => {
@@ -52,28 +54,6 @@ global.bot = new TelegramBot(process.env.BOT_TOKEN, {
     }
 });
 console.log(bot);
-bot.setMyCommands([
-    {
-        "command": "start",
-        "description": textConfig.command_start_description
-    },
-    {
-        "command": "mute",
-        "description": textConfig.command_mute_description
-    },
-    {
-        "command": "unmute",
-        "description": textConfig.command_unmute_description
-    },
-    {
-        "command": "kickout",
-        "description": textConfig.command_kickout_description
-    },
-    {
-        "command": "help",
-        "description": textConfig.command_help_description
-    }
-]);
 
 bot.onText(/\/start/, async function onText(msg) {
     const text = msg.text;
@@ -416,13 +396,36 @@ async function chatMemberUpdated(chat_member_updated) {
     }
 }
 
+setBotBaseConfig();
 checkGroupUserVerify();
 deleteExpiredQuiz();
-notify();
 
-async function notify() {
+async function setBotBaseConfig() {
+    bot.setMyCommands([
+        {
+            "command": "start",
+            "description": textConfig.command_start_description
+        },
+        {
+            "command": "mute",
+            "description": textConfig.command_mute_description
+        },
+        {
+            "command": "unmute",
+            "description": textConfig.command_unmute_description
+        },
+        {
+            "command": "kickout",
+            "description": textConfig.command_kickout_description
+        },
+        {
+            "command": "help",
+            "description": textConfig.command_help_description
+        }
+    ]);
+
     if (process.env.ADMIN_CHAT_ID) {
-        bot.sendMessage(process.env.ADMIN_CHAT_ID, 'Bot started', {
+        bot.sendMessage(process.env.ADMIN_CHAT_ID, textConfig.reply_bot_started, {
             parse_mode: "HTML"
         });
     }
@@ -430,12 +433,12 @@ async function notify() {
 
 async function checkGroupUserVerify() {
     await util.sleep(2000);
-    while(true) {
+    while (true) {
         try {
             const items = await GroupUserVerifyTable.listExpired(util.getUnixTimestamp());
             for (let i = 0; i < items.length; i++) {
                 const item = items[i];
-                
+
                 // remove
                 const re_join_seconds = parseInt(process.env.RE_JOIN_SECONDS);
                 const until_date = util.getUnixTimestamp() + re_join_seconds;
@@ -444,7 +447,7 @@ async function checkGroupUserVerify() {
                 await bot.deleteMessage(item.chat_id, item.verification_message_id).catch(e => console.log(e));
                 await GroupUserVerifyTable.deleteById(item.id);
             }
-        } catch(e) {
+        } catch (e) {
             console.log(e);
         } finally {
             await util.sleep(1000);
@@ -453,7 +456,7 @@ async function checkGroupUserVerify() {
 }
 async function deleteExpiredQuiz() {
     await util.sleep(2000);
-    while(true) {
+    while (true) {
         try {
             const items = await QuizTable.listExpired(util.getUnixTimestamp());
             for (let i = 0; i < items.length; i++) {
@@ -462,7 +465,7 @@ async function deleteExpiredQuiz() {
                 // remove
                 await QuizTable.deleteById(item.id);
             }
-        } catch(e) {
+        } catch (e) {
             console.log(e);
         } finally {
             await util.sleep(1000);

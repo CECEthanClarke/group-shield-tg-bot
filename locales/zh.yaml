@@ -1,0 +1,21 @@
+command_mute_description: 在群组中静音某人
+command_unmute_description: 在群组中解除某人的静音
+command_help_description: 帮助
+command_kickout_description: 将其踢出群组
+button_invite_to_join_group: 邀请加入该小组
+button_click_to_verify: 点击验证
+reply_bot_started: 机器人已成功启动。
+reply_start_text: 这是一个开源的群组管理机器人，具有自动验证、静音和快速踢出功能。
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: 欢迎 ${user_name} 加入 ${chat_title} 群组！请完成验证以加入。您有 ${seconds} 秒的时间完成验证，否则将过期。
+reply_verifying_send_text: 您正在 ${chat_title} 群组中进行验证。请通过点击下面的选项回答以下问题。
+reply_you_dont_have_verification_in_group: 您在此群组中没有所需的验证。
+reply_verification_expired: 此验证已过期。请返回群组并点击重新验证。
+reply_wrong_choice_text: 错误选择，正确答案是${answer}。您已被踢出群组。您可以在${seconds}秒后重新验证后重新加入群组。
+reply_chosen_answer_correct_text: 您选择的答案是正确的。您现在可以在小组中自由发言。
+reply_please_reply_to_a_message: 请先回复特定消息，然后再执行此命令。
+reply_not_have_permissions: 您没有足够的权限来执行此命令。
+reply_insufficient_bot_permissions: 失败，可能是由于机器人权限不足。
+reply_mute_successful: 静音成功。
+reply_unmute_successful: 取消静音成功。
+reply_kickout_successful: 踢出成功。
