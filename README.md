@@ -10,6 +10,9 @@ You can use the /mute command to prevent someone from sending messages. Before u
 - /kickout {minutes} 
 You can use the /kickout command to remove someone from the group. Reply to the person’s message before using the command. By default, the removal is permanent, but you can add the duration in minutes after the command. For example, adding “1” means they can rejoin after 1 minute.
 
+![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot/refs/heads/main/other/image.png)
+![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot/refs/heads/main/other/image2.png)
+
 ## Deployment Guide
 
 ### Step 1: Create Your Telegram Bot  
