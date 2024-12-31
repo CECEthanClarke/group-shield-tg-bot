@@ -9,7 +9,7 @@ const util = require('./util');
 const fs = require('fs')
 const YAML = require('yaml')
 const i18n = require('./i18n')
-i18n.init();
+i18n.init(process.env.ENFORCE_PRIMARY_LANGUAGE, process.env.LANGUAGE_CODE);
 global.textConfig = i18n.get(process.env.LANGUAGE_CODE);
 // console.log(textConfig);
 
@@ -75,7 +75,7 @@ bot.onText(/\/start/, async function onText(msg) {
                 "expire_timestamp": now + result.verification_expiration_seconds
             });
 
-            let send_text = textConfig.reply_verifying_send_text;
+            let send_text = i18n.t(msg.from).reply_verifying_send_text;
             send_text = send_text.replace("${chat_title}", `<code>${result.chat_title}</code>`);
             send_text += `\n\n${quiz.question}`;
 
@@ -99,19 +99,19 @@ bot.onText(/\/start/, async function onText(msg) {
                 }
             });
         } else {
-            await bot.sendMessage(msg.chat.id, textConfig.reply_you_dont_have_verification_in_group, {
+            await bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_you_dont_have_verification_in_group, {
                 reply_to_message_id: msg.message_id,
             });
         }
     } else {
-        bot.sendMessage(msg.chat.id, textConfig.reply_start_text, {
+        bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_start_text, {
             parse_mode: "HTML",
             reply_to_message_id: msg.message_id,
             disable_web_page_preview: true,
             reply_markup: {
                 inline_keyboard: [
                     [
-                        { text: textConfig.button_invite_to_join_group, url: `https://t.me/${process.env.BOT_USERNAME}?startgroup=BotUrlInviteJoin` }
+                        { text: i18n.t(msg.from).button_invite_to_join_group, url: `https://t.me/${process.env.BOT_USERNAME}?startgroup=BotUrlInviteJoin` }
                     ]
                 ]
             }
@@ -119,7 +119,7 @@ bot.onText(/\/start/, async function onText(msg) {
     }
 });
 bot.onText(/\/help/, function onText(msg) {
-    bot.sendMessage(msg.chat.id, textConfig.reply_help_text, {
+    bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_help_text, {
         parse_mode: "HTML",
         reply_to_message_id: msg.message_id
     });
@@ -135,24 +135,24 @@ bot.onText(/\/mute/, async function onText(msg) {
                 const minutes = split.length >= 2 ? (parseInt(split[1]) || 0) : 0;
                 const result = await restrictChatMember(msg.chat.id, reply_to_message.from.id, minutes * 60).catch(e => console.log(e));
                 if (result) {
-                    bot.sendMessage(msg.chat.id, textConfig.reply_mute_successful, {
+                    bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_mute_successful, {
                         parse_mode: "HTML",
                         reply_to_message_id: msg.message_id
                     });
                 } else {
-                    bot.sendMessage(msg.chat.id, textConfig.reply_insufficient_bot_permissions, {
+                    bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_insufficient_bot_permissions, {
                         parse_mode: "HTML",
                         reply_to_message_id: msg.message_id
                     });
                 }
             } else {
-                bot.sendMessage(msg.chat.id, textConfig.reply_not_have_permissions, {
+                bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_not_have_permissions, {
                     parse_mode: "HTML",
                     reply_to_message_id: msg.message_id
                 });
             }
         } else {
-            bot.sendMessage(msg.chat.id, textConfig.reply_please_reply_to_a_message, {
+            bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_please_reply_to_a_message, {
                 parse_mode: "HTML",
                 reply_to_message_id: msg.message_id
             });
@@ -168,24 +168,24 @@ bot.onText(/\/unmute/, async function onText(msg) {
             if (can_restrict_members) {
                 const result = await unlockChatMember(msg.chat.id, reply_to_message.from.id).catch(e => console.log(e));
                 if (result) {
-                    bot.sendMessage(msg.chat.id, textConfig.reply_unmute_successful, {
+                    bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_unmute_successful, {
                         parse_mode: "HTML",
                         reply_to_message_id: msg.message_id
                     });
                 } else {
-                    bot.sendMessage(msg.chat.id, textConfig.reply_insufficient_bot_permissions, {
+                    bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_insufficient_bot_permissions, {
                         parse_mode: "HTML",
                         reply_to_message_id: msg.message_id
                     });
                 }
             } else {
-                bot.sendMessage(msg.chat.id, textConfig.reply_not_have_permissions, {
+                bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_not_have_permissions, {
                     parse_mode: "HTML",
                     reply_to_message_id: msg.message_id
                 });
             }
         } else {
-            bot.sendMessage(msg.chat.id, textConfig.reply_please_reply_to_a_message, {
+            bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_please_reply_to_a_message, {
                 parse_mode: "HTML",
                 reply_to_message_id: msg.message_id
             });
@@ -203,24 +203,24 @@ bot.onText(/\/kickout/, async function onText(msg) {
                 const minutes = split.length >= 2 ? (parseInt(split[1]) || 0) : 0;
                 const result = await bot.banChatMember(msg.chat.id, reply_to_message.from.id, { until_date: util.getUnixTimestamp() + minutes * 60 }).catch(e => console.log(e));
                 if (result) {
-                    bot.sendMessage(msg.chat.id, textConfig.reply_kickout_successful, {
+                    bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_kickout_successful, {
                         parse_mode: "HTML",
                         reply_to_message_id: msg.message_id
                     });
                 } else {
-                    bot.sendMessage(msg.chat.id, textConfig.reply_insufficient_bot_permissions, {
+                    bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_insufficient_bot_permissions, {
                         parse_mode: "HTML",
                         reply_to_message_id: msg.message_id
                     });
                 }
             } else {
-                bot.sendMessage(msg.chat.id, textConfig.reply_not_have_permissions, {
+                bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_not_have_permissions, {
                     parse_mode: "HTML",
                     reply_to_message_id: msg.message_id
                 });
             }
         } else {
-            bot.sendMessage(msg.chat.id, textConfig.reply_please_reply_to_a_message, {
+            bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_please_reply_to_a_message, {
                 parse_mode: "HTML",
                 reply_to_message_id: msg.message_id
             });
@@ -245,7 +245,7 @@ bot.on("callback_query", async function handle(callback_query) {
                             // unlock
                             const chat = await bot.getChat(groupUserVerify.chat_id);
                             await unlockChatMember(groupUserVerify.chat_id, groupUserVerify.user_id).catch(e => console.log(e));
-                            await bot.sendMessage(groupUserVerify.user_id, textConfig.reply_chosen_answer_correct_text, { reply_to_message_id: callback_query.message.message_id, });
+                            await bot.sendMessage(groupUserVerify.user_id, i18n.t(callback_query.from).reply_chosen_answer_correct_text, { reply_to_message_id: callback_query.message.message_id, });
                         } else {
                             // remove
                             const re_join_seconds = parseInt(process.env.RE_JOIN_SECONDS);
@@ -253,7 +253,7 @@ bot.on("callback_query", async function handle(callback_query) {
                             console.log(until_date);
                             await bot.banChatMember(groupUserVerify.chat_id, groupUserVerify.user_id, { until_date }).catch(e => console.log(e));
 
-                            let send_text = textConfig.reply_wrong_choice_text;
+                            let send_text = i18n.t(callback_query.from).reply_wrong_choice_text;
                             send_text = send_text.replace("${answer}", quiz.answer);
                             send_text = send_text.replace("${seconds}", re_join_seconds);
                             await bot.sendMessage(groupUserVerify.user_id, send_text, { reply_to_message_id: callback_query.message.message_id, });
@@ -267,7 +267,7 @@ bot.on("callback_query", async function handle(callback_query) {
             } else {
                 await bot.answerCallbackQuery(callback_query.id, {
                     show_alert: true,
-                    text: textConfig.reply_verification_expired
+                    text: i18n.t(callback_query.from).reply_verification_expired
                 });
             }
         }
@@ -353,7 +353,7 @@ async function chatMemberUpdated(chat_member_updated) {
                 const chat_title = chat.title;
                 const verification_expiration_seconds = parseInt(process.env.VERIFICATION_EXPIRATION_SECONDS);
 
-                let send_text = textConfig.reply_group_verification_text;
+                let send_text = i18n.t(new_chat_member_user).reply_group_verification_text;
                 send_text = send_text.replace("${user_name}", `<a href="tg://user?id=${user_id}">${user_name}</a>`);
                 send_text = send_text.replace("${seconds}", verification_expiration_seconds);
                 send_text = send_text.replace("${chat_title}", `<code>${chat_title}</code>`);
@@ -362,7 +362,7 @@ async function chatMemberUpdated(chat_member_updated) {
                     reply_markup: {
                         inline_keyboard: [
                             [
-                                { text: textConfig.button_click_to_verify, url: `https://t.me/${process.env.BOT_USERNAME}?start=VM_${chat_id}` }
+                                { text: i18n.t(new_chat_member_user).button_click_to_verify, url: `https://t.me/${process.env.BOT_USERNAME}?start=VM_${chat_id}` }
                             ]
                         ]
                     }

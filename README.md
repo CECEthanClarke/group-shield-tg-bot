@@ -2,6 +2,8 @@
 
 The main function of the Group Shield Telegram Bot is to verify new members. Users must pass the verification process before they can send messages in the group.
 
+Supports multilingual settings and dynamic adaptation to the user’s language.
+
 ## Features
 
 - /mute {minutes}
@@ -31,6 +33,7 @@ Once filled in, you’re good to go.
 - RE_JOIN_SECONDS – Defaults to 120 seconds. After being removed, users can rejoin the group after 120 seconds.
 - LANGUAGE_CODE – Defaults to “en”. ['en', 'fr', 'de', 'pt', 'ja', 'ru', 'ar', 'es', 'zh', 'ko']
 - ADMIN_CHAT_ID - Enter your chat ID. After entering, the robot will notify you once it has started.
+- ENFORCE_PRIMARY_LANGUAGE - Defaults to false, ‘false’ means the system will dynamically switch based on the user’s language code. Setting it to ‘true’ means all configurations will follow the primary language you set.
 
 ### Step 3: Start the Bot
 After configuring everything, start the bot by running the following command:

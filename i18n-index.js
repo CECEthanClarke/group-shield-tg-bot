@@ -60,7 +60,9 @@ async function main() {
       }
       const signItem = getI18nSignItem(key);
       if (signItem.containsLanguage(lang)) {
-        continue;
+        if (containsI18nKey(lang, key)) {
+          continue;
+        }
       }
       console.log(`Translating key: ${signItem.key} -> ${lang}`);
       const transText = await completions(lang, value);
@@ -198,6 +200,11 @@ async function completions(toLang, content) {
   }
 }
 
+function containsI18nKey(lang, key) {
+  const filePath = path.join(__dirname, LANG_DIR_NAME, `${lang}.yaml`);
+  let data = YAML.parse(fs.readFileSync(filePath, 'utf8')) || {};
+  return key in data;
+}
 function setI18nKeyValue(lang, key, value) {
   const filePath = path.join(__dirname, LANG_DIR_NAME, `${lang}.yaml`);
   let data = YAML.parse(fs.readFileSync(filePath, 'utf8')) || {};

@@ -19,3 +19,4 @@ reply_insufficient_bot_permissions: 失败，可能是由于机器人权限不�
 reply_mute_successful: 静音成功。
 reply_unmute_successful: 取消静音成功。
 reply_kickout_successful: 踢出成功。
+command_start_description: 开始

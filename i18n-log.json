@@ -1,7 +1,6 @@
 {
   "command_start_description": {
     "languageList": [
-      "zh",
       "fr",
       "de",
       "pt",
@@ -9,7 +8,8 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "zh"
     ],
     "key": "command_start_description",
     "sign": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644"

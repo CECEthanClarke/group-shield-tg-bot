@@ -17,5 +17,6 @@ services:
       - RE_JOIN_SECONDS=120
       - LANGUAGE_CODE=en
       - ADMIN_CHAT_ID=
+      - ENFORCE_PRIMARY_LANGUAGE=false
     volumes:
       - "./config:/app/config"
