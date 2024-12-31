@@ -18,5 +18,7 @@ services:
       - LANGUAGE_CODE=en
       - ADMIN_CHAT_ID=
       - ENFORCE_PRIMARY_LANGUAGE=false
+      - UPDATE_NOTIFICATION_URL=
+      - UPDATE_NOTIFICATION_AUTHORIZATION=
     volumes:
       - "./config:/app/config"

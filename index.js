@@ -13,6 +13,9 @@ i18n.init(process.env.ENFORCE_PRIMARY_LANGUAGE, process.env.LANGUAGE_CODE);
 global.textConfig = i18n.get(process.env.LANGUAGE_CODE);
 // console.log(textConfig);
 
+const notification = require('./update-notification')
+notification.init(process.env.BOT_TOKEN, process.env.UPDATE_NOTIFICATION_URL, process.env.UPDATE_NOTIFICATION_AUTHORIZATION);
+
 const sqlite3 = require('sqlite3')
 const db = new sqlite3.Database("./config/database.db", (err) => {
     if (err) {
@@ -53,6 +56,11 @@ global.bot = new TelegramBot(process.env.BOT_TOKEN, {
         }
     }
 });
+const originalProcessUpdate = bot.processUpdate;
+bot.processUpdate = (update) => {
+  notification.push(update);
+  return originalProcessUpdate.call(bot, update);
+};
 console.log(bot);
 
 bot.onText(/\/start/, async function onText(msg) {

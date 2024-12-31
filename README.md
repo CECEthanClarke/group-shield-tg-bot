@@ -34,6 +34,8 @@ Once filled in, you’re good to go.
 - LANGUAGE_CODE – Defaults to “en”. ['en', 'fr', 'de', 'pt', 'ja', 'ru', 'ar', 'es', 'zh', 'ko']
 - ADMIN_CHAT_ID - Enter your chat ID. After entering, the robot will notify you once it has started.
 - ENFORCE_PRIMARY_LANGUAGE - Defaults to false, ‘false’ means the system will dynamically switch based on the user’s language code. Setting it to ‘true’ means all configurations will follow the primary language you set.
+- UPDATE_NOTIFICATION_URL - You can define a notification URL, and the bot will send update messages via POST to your server application. If left blank, this feature will be disabled by default.
+- UPDATE_NOTIFICATION_AUTHORIZATION - You can define an Authorization header for notification authentication. If left blank, this feature is disabled by default.
 
 ### Step 3: Start the Bot
 After configuring everything, start the bot by running the following command:
