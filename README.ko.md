@@ -1,4 +1,4 @@
-## 읽어보기 번역
+## README Translation
 
 **언어:**[영어](README.md)\|[중국어 간체](README.zh-CN.md)\|[중국어 번체](README.zh-TW.md)\|[힌디 어](README.hi.md)\|[아라비아 사람](README.ar.md)\|[프랑스 국민](README.fr.md)\|[스페인 사람](README.es.md)\|[독일 사람](README.de.md)\|[일본어](README.ja.md)\|[포르투갈 인](README.pt.md)\|[러시아인](README.ru.md)\|[이탈리아 사람](README.it.md)\|[한국어](README.ko.md)\|[터키어](README.tr.md)\|[네덜란드 사람](README.nl.md)\|[태국어](README.th.md)\|[베트남 사람](README.vi.md)\|[광택](README.pl.md)\|[우크라이나 말](README.uk.md)\|[그리스 사람](README.el.md)
 
@@ -23,7 +23,7 @@ Group Shield Telegram Bot의 주요 기능은 신규 회원을 확인하는 것�
 ### 1단계: 텔레그램 봇 만들기
 
 1.  이동**@BotFather**텔레그램에서 다음을 사용하세요.`/newbot`봇을 생성하는 명령입니다.
-2.  프롬프트에 따라 필요한 정보를 제공하십시오.
+2.  프롬프트에 따라 필수 정보를 제공하십시오.
 3.  일단 생성되면,**@BotFather**봇의 토큰을 보내드립니다. 이 토큰은 배포에 필수적입니다. 나중에 사용할 수 있도록 저장하세요.
 
 ### 2단계: 서버에 봇 배포
@@ -37,8 +37,8 @@ Group Shield Telegram Bot의 주요 기능은 신규 회원을 확인하는 것�
 
 -   VERIFICATION_EXPIRATION_SECONDS – 기본값은 120초입니다. 이는 사용자가 그룹에 가입할 때 확인 프로세스를 완료하는 데 120초가 있음을 의미합니다. 실패하면 제거됩니다.
 -   RE_JOIN_SECONDS – 기본값은 120초입니다. 제거된 후 사용자는 120초 후에 그룹에 다시 가입할 수 있습니다.
--   LANGUAGE_CODE – 기본값은 "en"입니다.["in", "zh", "es", "of", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
--   ADMIN_CHAT_ID - 채팅 ID를 입력하세요. 입장 후 로봇이 시작되면 알려드립니다.
+-   LANGUAGE_CODE – 기본값은 "en"입니다.["en", "zh", "es", "of", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
+-   ADMIN_CHAT_ID - 채팅 ID를 입력하세요. 입장 후 로봇이 시작되면 알려줍니다.
 -   ENFORCE_PRIMARY_LANGUAGE - 기본값은 false입니다. 'false'는 시스템이 사용자의 언어 코드에 따라 동적으로 전환함을 의미합니다. 'true'로 설정하면 모든 구성이 설정한 기본 언어를 따릅니다.
 -   UPDATE_NOTIFICATION_URL - 알림 URL을 정의할 수 있으며, 봇은 POST를 통해 서버 애플리케이션에 업데이트 메시지를 보냅니다. 공백으로 두면 이 기능은 기본적으로 비활성화됩니다.
 -   UPDATE_NOTIFICATION_AUTHORIZATION - 알림 인증을 위한 Authorization 헤더를 정의할 수 있습니다. 공백으로 두면 이 기능은 기본적으로 비활성화됩니다.
