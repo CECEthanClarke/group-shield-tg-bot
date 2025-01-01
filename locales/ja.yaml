@@ -27,3 +27,4 @@ reply_switch_language: デフォルトでは、言語はあなたのTG設定に�
 reply_operation_successful: 操作は成功しました
 reply_operation_failed: 操作に失敗しました
 reply_command_only_be_configured_interface_with_bot: このコマンドは、ボットとのチャットインターフェースでのみ設定できます。
+reply_bot_cannot_verification_in_private_groups: ボットはTGの権限制限のため、プライベートグループでの検証を行うことができません。この問題を解決するには、グループにユーザー名を設定し、公開にしてください。その後、ボットが正常に機能するように権限を再割り当てしてください！

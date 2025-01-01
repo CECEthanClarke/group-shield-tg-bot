@@ -642,5 +642,28 @@
     ],
     "key": "reply_command_only_be_configured_interface_with_bot",
     "sign": "8a3388ec8ed2bd958a4e6c1fa1b0d7dd2c106b3a3d5243472f672d1304151479"
+  },
+  "reply_bot_cannot_verification_in_private_groups": {
+    "languageList": [
+      "zh",
+      "es",
+      "de",
+      "nl",
+      "it",
+      "ar",
+      "pt",
+      "ko",
+      "ru",
+      "fr",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr",
+      "ja"
+    ],
+    "key": "reply_bot_cannot_verification_in_private_groups",
+    "sign": "5dfea6b5a945c6f60f94d5c6a3ac5a3d8f697a42b4c38fc474e93bad59911b99"
   }
 }

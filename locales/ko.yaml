@@ -29,3 +29,6 @@ reply_switch_language: 기본적으로 언어는 귀하의 TG 설정에 따라 �
 reply_operation_successful: 작업이 성공적으로 완료되었습니다.
 reply_operation_failed: 작업 실패
 reply_command_only_be_configured_interface_with_bot: 이 명령은 봇과의 채팅 인터페이스에서만 구성할 수 있습니다.
+reply_bot_cannot_verification_in_private_groups: 봇은 TG 권한 제한으로 인해 비공개 그룹에서 인증을
+  수행할 수 없습니다. 이 문제를 해결하기 위해 그룹의 사용자 이름을 설정하고 공개로 설정하세요. 그런 다음 봇이 제대로 작동할 수 있도록
+  권한을 재지정하세요!

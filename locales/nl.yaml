@@ -36,3 +36,8 @@ reply_switch_language: Standaard zal de taal automatisch schakelen op basis van
 reply_operation_successful: Operatie geslaagd
 reply_operation_failed: Operatie mislukt
 reply_command_only_be_configured_interface_with_bot: Deze opdracht kan alleen worden geconfigureerd in de chatinterface met de bot.
+reply_bot_cannot_verification_in_private_groups: De bot kan geen verificatie
+  uitvoeren in privégroepen vanwege de TG-toestemmingsbeperkingen. Om dit op te
+  lossen, stel een gebruikersnaam in voor je groep en maak deze publiek. Wijs
+  vervolgens opnieuw de toestemming toe aan de bot zodat deze goed kan
+  functioneren!

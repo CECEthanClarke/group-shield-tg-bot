@@ -41,3 +41,8 @@ reply_operation_successful: Opération réussie
 reply_operation_failed: L'opération a échoué
 reply_command_only_be_configured_interface_with_bot: Cette commande ne peut être
   configurée que dans l'interface de chat avec le bot.
+reply_bot_cannot_verification_in_private_groups: Le bot ne peut pas effectuer de
+  vérification dans les groupes privés en raison des restrictions de permissions
+  TG. Pour résoudre ce problème, attribuez un nom d'utilisateur à votre groupe
+  et rendez-le public. Ensuite, réaffectez les permissions au bot pour qu'il
+  puisse fonctionner correctement !

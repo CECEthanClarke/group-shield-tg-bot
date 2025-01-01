@@ -33,3 +33,6 @@ reply_switch_language: افتراضيًا، سيتبدل اللغة تلقائي
 reply_operation_successful: العملية ناجحة
 reply_operation_failed: فشلت العملية
 reply_command_only_be_configured_interface_with_bot: يمكن تكوين هذا الأمر فقط في واجهة الدردشة مع الروبوت.
+reply_bot_cannot_verification_in_private_groups: لا يمكن للروبوت إجراء التحقق في
+  المجموعات الخاصة بسبب قيود أذونات TG. لحل هذه المشكلة، قم بتعيين اسم مستخدم
+  لمجموعتك واجعلها عامة. ثم، أعد تعيين الأذونات للروبوت حتى يعمل بشكل صحيح!

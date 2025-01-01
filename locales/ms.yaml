@@ -37,3 +37,8 @@ reply_switch_language: Secara default, bahasa akan bertukar secara automatik
 reply_operation_successful: Operasi berjaya
 reply_operation_failed: Operasi gagal
 reply_command_only_be_configured_interface_with_bot: Arahan ini hanya boleh dikonfigurasi dalam antara muka sembang dengan bot.
+reply_bot_cannot_verification_in_private_groups: Bot tidak dapat melakukan
+  pengesahan dalam kumpulan persendirian kerana sekatan kebenaran TG. Untuk
+  menyelesaikan ini, tetapkan nama pengguna untuk kumpulan anda dan jadikan ia
+  awam. Kemudian, tetapkan semula kebenaran untuk bot agar ia dapat berfungsi
+  dengan baik!

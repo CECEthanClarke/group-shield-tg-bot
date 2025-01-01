@@ -35,3 +35,7 @@ reply_switch_language: به طور پیش‌فرض، زبان به‌طور خو
 reply_operation_successful: عملیات با موفقیت انجام شد
 reply_operation_failed: عملیات ناموفق بود
 reply_command_only_be_configured_interface_with_bot: این دستور فقط در رابط چت با ربات قابل پیکربندی است.
+reply_bot_cannot_verification_in_private_groups: ربات نمی‌تواند در گروه‌های
+  خصوصی تأیید هویت انجام دهد به دلیل محدودیت‌های مجوز TG. برای حل این مشکل، یک
+  نام کاربری برای گروه خود تعیین کنید و آن را عمومی کنید. سپس، مجوزها را دوباره
+  به ربات تخصیص دهید تا به درستی کار کند!

@@ -36,3 +36,7 @@ reply_switch_language: Por defecto, el idioma cambiará automáticamente según 
 reply_operation_successful: Операция выполнена успешно
 reply_operation_failed: Ouvbane échoué
 reply_command_only_be_configured_interface_with_bot: Esta orden solo se puede configurar en la interfaz de chat con el bot.
+reply_bot_cannot_verification_in_private_groups: El bot no puede realizar la
+  verificación en grupos privados debido a las restricciones de permisos de TG.
+  Para resolver esto, configura un nombre de usuario para tu grupo y hazlo
+  público. Luego, reasigna permisos al bot para que funcione correctamente!

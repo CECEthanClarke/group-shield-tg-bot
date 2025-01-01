@@ -35,3 +35,7 @@ reply_switch_language: Varsayılan olarak, dil otomatik olarak TG ayarlarınıza
 reply_operation_successful: Operasyon başarılı
 reply_operation_failed: İşlem başarısız oldu
 reply_command_only_be_configured_interface_with_bot: Bu komut yalnızca bot ile sohbet arayüzünde yapılandırılabilir.
+reply_bot_cannot_verification_in_private_groups: Bot, TG izin kısıtlamaları
+  nedeniyle özel gruplarda doğrulama yapamaz. Bunu çözmek için, grubunuz için
+  bir kullanıcı adı belirleyin ve herkese açık hale getirin. Ardından, botun
+  düzgün çalışabilmesi için izinleri yeniden atayın!

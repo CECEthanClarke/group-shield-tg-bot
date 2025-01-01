@@ -34,3 +34,7 @@ reply_switch_language: Theo mặc định, ngôn ngữ sẽ tự động chuyể
 reply_operation_successful: Hoạt động thành công
 reply_operation_failed: Hoạt động không thành công
 reply_command_only_be_configured_interface_with_bot: Lệnh này chỉ có thể được cấu hình trong giao diện trò chuyện với bot.
+reply_bot_cannot_verification_in_private_groups: Bot không thể thực hiện xác
+  minh trong các nhóm riêng tư do các hạn chế quyền của TG. Để giải quyết điều
+  này, hãy đặt một tên người dùng cho nhóm của bạn và biến nó thành công khai.
+  Sau đó, cấp quyền lại cho bot để nó hoạt động đúng cách!

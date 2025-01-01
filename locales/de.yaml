@@ -40,3 +40,8 @@ reply_switch_language: Standardmäßig wird die Sprache automatisch basierend au
 reply_operation_successful: Operation erfolgreich
 reply_operation_failed: Operation fehlgeschlagen
 reply_command_only_be_configured_interface_with_bot: Dieser Befehl kann nur in der Chat-Oberfläche mit dem Bot konfiguriert werden.
+reply_bot_cannot_verification_in_private_groups: Der Bot kann in privaten
+  Gruppen aufgrund von TG-Berechtigungseinschränkungen keine Verifizierung
+  durchführen. Um dies zu lösen, setzen Sie einen Benutzernamen für Ihre Gruppe
+  und machen Sie sie öffentlich. Weisen Sie dann die Berechtigungen für den Bot
+  neu zu, damit er ordnungsgemäß funktionieren kann!

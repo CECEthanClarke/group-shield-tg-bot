@@ -36,3 +36,7 @@ reply_switch_language: Por padrão, o idioma será alterado automaticamente com
 reply_operation_successful: Operação bem-sucedida
 reply_operation_failed: Operação falhou
 reply_command_only_be_configured_interface_with_bot: Este comando só pode ser configurado na interface de chat com o bot.
+reply_bot_cannot_verification_in_private_groups: O bot não pode realizar a
+  verificação em grupos privados devido a restrições de permissão do TG. Para
+  resolver isso, defina um nome de usuário para seu grupo e torne-o público. Em
+  seguida, reatribua as permissões ao bot para que ele funcione corretamente!

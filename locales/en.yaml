@@ -28,3 +28,4 @@ reply_switch_language: By default, the language will automatically switch based 
 reply_operation_successful: Operation successful
 reply_operation_failed: Operation failed
 reply_command_only_be_configured_interface_with_bot: This command can only be configured in the chat interface with the bot.
+reply_bot_cannot_verification_in_private_groups: The bot cannot perform verification in private groups due to TG permission restrictions. To resolve this, set a username for your group and make it public. Then, reassign permissions to the bot for it to function properly!

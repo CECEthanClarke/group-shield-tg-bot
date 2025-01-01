@@ -410,6 +410,19 @@ async function chatMemberUpdated(chat_member_updated) {
         if (new_chat_member && chat && chat.type.includes('group')) {
             const status = new_chat_member.status;
             const new_chat_member_user = new_chat_member.user;
+            if (status === 'member' && new_chat_member_user.is_bot) {
+                const chat_id = String(chat.id);
+                // private group
+                if (chat_id.startsWith('-4')) {
+                    // self
+                    if (new_chat_member_user.username.toLowerCase() === process.env.BOT_USERNAME.toLowerCase()) {
+                        bot.sendMessage(chat.id, i18n.t(chat_member_updated.from).reply_bot_cannot_verification_in_private_groups, {
+                            parse_mode: "HTML"
+                        });
+                    }
+                }
+            }
+
             if (status === 'member' && !new_chat_member_user.is_bot) {
                 const old_chat_member = chat_member_updated.old_chat_member;
                 if (old_chat_member) {
