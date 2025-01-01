@@ -28,3 +28,12 @@ reply_insufficient_bot_permissions: Ошибка, вероятно, из-за н
 reply_mute_successful: Оглушение успешно.
 reply_unmute_successful: Размутирование успешно.
 reply_kickout_successful: Выгнать успешно.
+command_language_description: Сменить язык
+button_got_it: Понял
+reply_switch_language: По умолчанию язык будет автоматически переключаться в
+  зависимости от ваших настроек TG. Если вы хотите изменить язык, нажмите на
+  язык ниже, чтобы установить его. После установки изменение является
+  постоянным.
+reply_operation_successful: Операция успешна
+reply_operation_failed: Операция не удалась
+reply_command_only_be_configured_interface_with_bot: Эту команду можно настроить только в интерфейсе чата с ботом.

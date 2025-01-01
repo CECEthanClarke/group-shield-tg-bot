@@ -328,5 +328,95 @@
     ],
     "key": "reply_kickout_successful",
     "sign": "3ac703763723bbd3d9c08dbfe69e111c3962d020c94971951ee5cbd6c3a69030"
+  },
+  "command_language_description": {
+    "languageList": [
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "zh",
+      "ko"
+    ],
+    "key": "command_language_description",
+    "sign": "361335922f0b62e6b0cea50507a3093512eb196d87c1ebd4258122c5468d93eb"
+  },
+  "button_got_it": {
+    "languageList": [
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "zh",
+      "ko"
+    ],
+    "key": "button_got_it",
+    "sign": "5ad3dbd1242a4cea217e8b68a9fd2c8187f2c337258279193f6d9a31a9f1a69c"
+  },
+  "reply_switch_language": {
+    "languageList": [
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "zh",
+      "ko"
+    ],
+    "key": "reply_switch_language",
+    "sign": "12f688b32bda5bef2c3999313cbdb3b8b835b783f3364efc089ff48fc91340b7"
+  },
+  "reply_operation_successful": {
+    "languageList": [
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "zh",
+      "ko"
+    ],
+    "key": "reply_operation_successful",
+    "sign": "387e71d005afb4825e62be7ba91b3ff7dfdd14fe694d20df6c4e8fcd25574986"
+  },
+  "reply_operation_failed": {
+    "languageList": [
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "zh",
+      "ko"
+    ],
+    "key": "reply_operation_failed",
+    "sign": "4e1af7c74096cf0a47ce343febcea35ec03b9599324314b5b8fc1de2fa479705"
+  },
+  "reply_command_only_be_configured_interface_with_bot": {
+    "languageList": [
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ru",
+      "ar",
+      "es",
+      "zh",
+      "ko"
+    ],
+    "key": "reply_command_only_be_configured_interface_with_bot",
+    "sign": "8a3388ec8ed2bd958a4e6c1fa1b0d7dd2c106b3a3d5243472f672d1304151479"
   }
 }

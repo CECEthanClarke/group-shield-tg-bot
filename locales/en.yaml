@@ -3,9 +3,11 @@ command_mute_description: Mute someone in the group
 command_unmute_description: Unmute someone in the group
 command_help_description: Help
 command_kickout_description: Kick out of the group
+command_language_description: Switch language
 
 button_invite_to_join_group: Invite to join the group
 button_click_to_verify: Click to verify
+button_got_it: Got it
 
 reply_bot_started: Bot has started successfully.
 reply_start_text: This is an open-source group management bot with automatic verification, mute, and quick kick functions.
@@ -22,3 +24,7 @@ reply_insufficient_bot_permissions: Failed, likely due to insufficient bot permi
 reply_mute_successful: Mute successful.
 reply_unmute_successful: Unmute successful.
 reply_kickout_successful: Kick out successful.
+reply_switch_language: By default, the language will automatically switch based on your TG settings. If you want to change the language, click the language below to set it. Once set, the change is permanent.
+reply_operation_successful: Operation successful
+reply_operation_failed: Operation failed
+reply_command_only_be_configured_interface_with_bot: This command can only be configured in the chat interface with the bot.

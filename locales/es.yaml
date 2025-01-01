@@ -29,3 +29,11 @@ reply_insufficient_bot_permissions: Fallido, probablemente debido a permisos ins
 reply_mute_successful: Silencio exitoso.
 reply_unmute_successful: Desactivar silencio exitoso.
 reply_kickout_successful: Expulsión exitosa.
+command_language_description: Cambiar idioma
+button_got_it: Entendido
+reply_switch_language: Por defecto, el idioma cambiará automáticamente según tu
+  configuración de TG. Si deseas cambiar el idioma, haz clic en el idioma a
+  continuación para configurarlo. Una vez configurado, el cambio es permanente.
+reply_operation_successful: Operación exitosa
+reply_operation_failed: Operación fallida
+reply_command_only_be_configured_interface_with_bot: Este comando solo se puede configurar en la interfaz de chat con el bot.

@@ -38,10 +38,19 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function chunkArray(arr, size = 3) {
+  const result = [];
+  for (let i = 0; i < arr.length; i += size) {
+    result.push(arr.slice(i, i + size));
+  }
+  return result;
+}
+
 const util = {
   generateAdditionQuiz,
   uuid,
   getUnixTimestamp,
   sleep,
+  chunkArray,
 }
 module.exports = util;

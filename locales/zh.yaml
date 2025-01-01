@@ -20,3 +20,9 @@ reply_mute_successful: 静音成功。
 reply_unmute_successful: 取消静音成功。
 reply_kickout_successful: 踢出成功。
 command_start_description: 开始
+command_language_description: 切换语言
+button_got_it: 明白了
+reply_switch_language: 默认情况下，语言会根据您的TG设置自动切换。如果您想更改语言，请点击下面的语言进行设置。一旦设置，变化是永久的。
+reply_operation_successful: 操作成功
+reply_operation_failed: 操作失败
+reply_command_only_be_configured_interface_with_bot: 此命令只能在与机器人聊天界面中进行配置。

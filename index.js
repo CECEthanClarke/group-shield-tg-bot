@@ -6,12 +6,6 @@ process.on('uncaughtException', (err) => {
 require('dotenv').config();
 
 const util = require('./util');
-const fs = require('fs')
-const YAML = require('yaml')
-const i18n = require('./i18n')
-i18n.init(process.env.ENFORCE_PRIMARY_LANGUAGE, process.env.LANGUAGE_CODE);
-global.textConfig = i18n.get(process.env.LANGUAGE_CODE);
-// console.log(textConfig);
 
 const notification = require('./update-notification')
 notification.init(process.env.BOT_TOKEN, process.env.UPDATE_NOTIFICATION_URL, process.env.UPDATE_NOTIFICATION_AUTHORIZATION);
@@ -29,8 +23,15 @@ db.on("error", function (error) {
 });
 global.GroupUserVerifyTable = require('./group-user-verify-table');
 global.QuizTable = require('./quiz-table');
+global.I18nTable = require('./i18n-table');
 GroupUserVerifyTable.init(db);
 QuizTable.init(db);
+I18nTable.init(db);
+
+const i18n = require('./i18n')
+i18n.init(process.env.ENFORCE_PRIMARY_LANGUAGE, process.env.LANGUAGE_CODE);
+global.textConfig = i18n.get(process.env.LANGUAGE_CODE);
+// console.log(textConfig);
 
 const TelegramBot = require('node-telegram-bot-api');
 global.bot = new TelegramBot(process.env.BOT_TOKEN, {
@@ -235,6 +236,43 @@ bot.onText(/\/kickout/, async function onText(msg) {
         }
     }
 });
+bot.onText(/\/language/, function onText(msg) {
+    if (msg.chat.type === 'private') {
+        const items = i18n.list();
+        const itemsArray = util.chunkArray(items, 3);
+        const inline_keyboard = [];
+        for (let i = 0; i < itemsArray.length; i++) {
+            const chunk = itemsArray[i];
+            const keyboard = [];
+            for (let c = 0; c < chunk.length; c++) {
+                const item = chunk[c];
+                keyboard.push({
+                    text: item.nativeName,
+                    callback_data: `language|${msg.from.id}|${item.lang}`
+                });
+            }
+            inline_keyboard.push(keyboard);
+        }
+        inline_keyboard.push([
+            {
+                text: i18n.t(msg.from).button_got_it,
+                callback_data: `gotit|${msg.from.id}`
+            }
+        ]);
+
+        bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_switch_language, {
+            parse_mode: 'HTML',
+            reply_markup: {
+                inline_keyboard
+            }
+        });
+    } else {
+        bot.sendMessage(msg.chat.id, i18n.t(msg.from).reply_command_only_be_configured_interface_with_bot, {
+            parse_mode: "HTML",
+            reply_to_message_id: msg.message_id
+        });
+    }
+});
 
 bot.on("callback_query", async function handle(callback_query) {
     const data = callback_query.data;
@@ -277,6 +315,36 @@ bot.on("callback_query", async function handle(callback_query) {
                     show_alert: true,
                     text: i18n.t(callback_query.from).reply_verification_expired
                 });
+            }
+        }
+        else if (method === 'gotit') {
+            const fromId = dataSplit[1];
+            if (callback_query.from.id == fromId) {
+                bot.deleteMessage(callback_query.message.chat.id, callback_query.message.message_id);
+            }
+        }
+        else if (method === 'language') {
+            const fromId = dataSplit[1];
+            const lang = dataSplit[2];
+            if (callback_query.from.id == fromId && i18n.contains(lang)) {
+                const result = await I18nTable.save({
+                    "chat_id": fromId,
+                    "lang": lang
+                }).catch(e => console.error(e));
+                if (result) {
+                    i18n.saveUserLangCache(fromId, lang);
+                    bot.answerCallbackQuery(callback_query.id, {
+                        show_alert: true,
+                        text: i18n.t(callback_query.from).reply_operation_successful
+                    }).then(rsp => {
+                        bot.deleteMessage(callback_query.message.chat.id, callback_query.message.message_id);
+                    });
+                } else {
+                    await bot.answerCallbackQuery(callback_query.id, {
+                        show_alert: true,
+                        text: i18n.t(callback_query.from).reply_operation_failed
+                    });
+                }
             }
         }
     }
@@ -425,6 +493,10 @@ async function setBotBaseConfig() {
         {
             "command": "kickout",
             "description": textConfig.command_kickout_description
+        },
+        {
+            "command": "language",
+            "description": textConfig.command_language_description
         },
         {
             "command": "help",

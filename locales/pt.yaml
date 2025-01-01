@@ -28,3 +28,11 @@ reply_insufficient_bot_permissions: Falhou, provavelmente devido a permissões i
 reply_mute_successful: Silêncio bem-sucedido.
 reply_unmute_successful: Ativação do som bem-sucedida.
 reply_kickout_successful: Expulsão bem-sucedida.
+command_language_description: Mudar idioma
+button_got_it: Entendi
+reply_switch_language: Por padrão, o idioma será alterado automaticamente com
+  base nas suas configurações do TG. Se você quiser mudar o idioma, clique no
+  idioma abaixo para defini-lo. Uma vez definido, a mudança é permanente.
+reply_operation_successful: Operação bem-sucedida
+reply_operation_failed: Operação falhou
+reply_command_only_be_configured_interface_with_bot: Este comando só pode ser configurado na interface de chat com o bot.

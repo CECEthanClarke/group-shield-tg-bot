@@ -25,3 +25,11 @@ reply_insufficient_bot_permissions: فشل، على الأرجح بسبب عدم
 reply_mute_successful: تم كتم الصوت بنجاح.
 reply_unmute_successful: تم إلغاء كتم الصوت بنجاح.
 reply_kickout_successful: تمت الإزالة بنجاح.
+command_language_description: تبديل اللغة
+button_got_it: فهمت
+reply_switch_language: افتراضيًا، سيتبدل اللغة تلقائيًا بناءً على إعدادات TG
+  الخاصة بك. إذا كنت ترغب في تغيير اللغة، انقر على اللغة أدناه لتعيينها. بمجرد
+  تعيينها، سيكون التغيير دائمًا.
+reply_operation_successful: العملية ناجحة
+reply_operation_failed: فشلت العملية
+reply_command_only_be_configured_interface_with_bot: يمكن تكوين هذا الأمر فقط في واجهة الدردشة مع الروبوت.

@@ -21,3 +21,9 @@ reply_insufficient_bot_permissions: 失敗しました。おそらくボット�
 reply_mute_successful: ミュート成功。
 reply_unmute_successful: ミュート解除が成功しました。
 reply_kickout_successful: キックアウトに成功しました。
+command_language_description: 言語を切り替える
+button_got_it: 了解しました
+reply_switch_language: デフォルトでは、言語はあなたのTG設定に基づいて自動的に切り替わります。言語を変更したい場合は、下の言語をクリックして設定してください。一度設定すると、その変更は永久に適用されます。
+reply_operation_successful: 操作は成功しました
+reply_operation_failed: 操作に失敗しました
+reply_command_only_be_configured_interface_with_bot: このコマンドは、ボットとのチャットインターフェースでのみ設定できます。

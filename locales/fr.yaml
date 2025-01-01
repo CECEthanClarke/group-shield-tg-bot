@@ -31,3 +31,13 @@ reply_insufficient_bot_permissions: Échec, probablement en raison de permission
 reply_mute_successful: Sourdine réussie.
 reply_unmute_successful: Désactiver le sourdine réussi.
 reply_kickout_successful: Expulsion réussie.
+command_language_description: Changer de langue
+button_got_it: Compris
+reply_switch_language: Par défaut, la langue changera automatiquement en
+  fonction de vos paramètres TG. Si vous souhaitez changer la langue, cliquez
+  sur la langue ci-dessous pour la définir. Une fois définie, le changement est
+  permanent.
+reply_operation_successful: Opération réussie
+reply_operation_failed: L'opération a échoué
+reply_command_only_be_configured_interface_with_bot: Cette commande ne peut être
+  configurée que dans l'interface de chat avec le bot.
