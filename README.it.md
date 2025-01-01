@@ -28,7 +28,7 @@ Supporta impostazioni multilingue e adattamento dinamico alla lingua dell'utente
 
 ### Passaggio 2: distribuire il bot sul server
 
-È necessario copiare il file docker-compose.yml dalla directory di origine alla directory del server. Quindi, configura i valori per BOT_TOKEN e BOT_USERNAME nel file docker-compose.yml.
+Devi copiare il file docker-compose.yml dalla directory di origine alla directory del server. Quindi, configura i valori per BOT_TOKEN e BOT_USERNAME nel file docker-compose.yml.
 
 -   BOT_TOKEN – Questo è il token del bot.
 -   BOT_USERNAME – Questo è il nome utente del bot senza il simbolo "@".
@@ -37,7 +37,7 @@ Una volta compilato, sei a posto.
 
 -   VERIFICATION_EXPIRATION_SECONDS – Il valore predefinito è 120 secondi. Ciò significa che gli utenti hanno 120 secondi per completare il processo di verifica quando si uniscono al gruppo. Se falliscono, verranno rimossi.
 -   RE_JOIN_SECONDS – Il valore predefinito è 120 secondi. Dopo essere stati rimossi, gli utenti possono rientrare nel gruppo dopo 120 secondi.
--   LANGUAGE_CODE – Il valore predefinito è "en".["in", "zh", "es", "of", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
+-   LANGUAGE_CODE – Il valore predefinito è "en".["en", "zh", "es", "of", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
 -   ADMIN_CHAT_ID - Inserisci il tuo ID chat. Dopo essere entrato, il robot ti avviserà una volta avviato.
 -   ENFORCE_PRIMARY_LANGUAGE - Il valore predefinito è false, "false" significa che il sistema cambierà dinamicamente in base al codice della lingua dell'utente. Impostandolo su "true" significa che tutte le configurazioni seguiranno la lingua principale impostata.
 -   UPDATE_NOTIFICATION_URL: puoi definire un URL di notifica e il bot invierà messaggi di aggiornamento tramite POST alla tua applicazione server. Se lasciata vuota, questa funzione sarà disabilitata per impostazione predefinita.
