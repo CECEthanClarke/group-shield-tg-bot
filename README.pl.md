@@ -37,7 +37,7 @@ Po wypełnieniu możesz zaczynać.
 
 -   VERIFICATION_EXPIRATION_SECONDS – domyślnie 120 sekund. Oznacza to, że użytkownicy mają 120 sekund na dokończenie procesu weryfikacji podczas dołączania do grupy. Jeżeli im się to nie uda, zostaną usunięte.
 -   RE_JOIN_SECONDS – domyślnie 120 sekund. Po usunięciu użytkownicy mogą ponownie dołączyć do grupy po 120 sekundach.
--   LANGUAGE_CODE – Defaults to “en”. [„in”" „zh”", „es”" „of”", „nl”" „it”", „ar”" „pt”", „ko”" „ru”", „fr”" „id”", „ms " ",fa" ",uk" ",vi" ",tr" ",ja"]
+-   LANGUAGE_CODE – domyślnie „en”.[„en”" „zh”", „es”" „of”", „nl”" „it”", „ar”" „pt”", „ko”" „ru”", „fr”" „id”", „ms " ",fa" ",uk" ",vi" ",tr" ",ja"]
 -   ADMIN_CHAT_ID - Wprowadź swój identyfikator czatu. Po wejściu robot powiadomi Cię o uruchomieniu.
 -   ENFORCE_PRIMARY_LANGUAGE — wartość domyślna to false, „false” oznacza, że ​​system będzie dynamicznie przełączał się w oparciu o kod języka użytkownika. Ustawienie wartości „true” oznacza, że ​​wszystkie konfiguracje będą zgodne z ustawionym językiem podstawowym.
 -   UPDATE_NOTIFICATION_URL - Możesz zdefiniować adres URL powiadomień, a bot będzie wysyłał wiadomości aktualizacyjne poprzez POST do aplikacji serwera. Jeśli pozostawisz puste, ta funkcja będzie domyślnie wyłączona.
