@@ -1,12 +1,12 @@
 ## README การแปล
 
-**ภาษา:**[ภาษาอังกฤษ](README.md)\|[จีนตัวย่อ](README.zh-CN.md) \| [จีนดั้งเดิม](README.zh-TW.md)\|[ฮินดี](README.hi.md)\|[อาหรับ](README.ar.md)\|[ภาษาฝรั่งเศส](README.fr.md) \| [สเปน](README.es.md)\|[เยอรมัน](README.de.md)\|[ญี่ปุ่น](README.ja.md)\|[โปรตุเกส](README.pt.md)\|[ภาษารัสเซีย](README.ru.md)\|[Italiano](README.it.md)\|[เกาหลี](README.ko.md)\|[ภาษาตุรกี](README.tr.md) \| [ภาษาดัตช์](README.nl.md)\|[ไทย](README.th.md)\|[ภาษาเวียดนาม](README.vi.md)\|[ขัด](README.pl.md)\|[ภาษายูเครน](README.uk.md)\|[กรีก](README.el.md)
+**ภาษา:**[ภาษาอังกฤษ](README.md)\|[จีนตัวย่อ](README.zh-CN.md)\|[จีนดั้งเดิม](README.zh-TW.md)\|[ฮินดี](README.hi.md)\|[อาหรับ](README.ar.md)\|[ภาษาฝรั่งเศส](README.fr.md)\|[สเปน](README.es.md)\|[เยอรมัน](README.de.md)\|[ญี่ปุ่น](README.ja.md)\|[โปรตุเกส](README.pt.md)\|[ภาษารัสเซีย](README.ru.md)\|[ภาษาอิตาลี](README.it.md)\|[เกาหลี](README.ko.md)\|[ภาษาตุรกี](README.tr.md)\|[ภาษาดัตช์](README.nl.md)\|[ไทย](README.th.md)\|[ภาษาเวียดนาม](README.vi.md)\|[ขัด](README.pl.md)\|[ภาษายูเครน](README.uk.md)\|[กรีก](README.el.md)
 
 # กลุ่มโล่โทรเลข Bot
 
 หน้าที่หลักของ Group Shield Telegram Bot คือการตรวจสอบสมาชิกใหม่ ผู้ใช้จะต้องผ่านขั้นตอนการตรวจสอบก่อนจึงจะสามารถส่งข้อความในกลุ่มได้
 
-Supports multilingual settings and dynamic adaptation to the user’s language.
+รองรับการตั้งค่าหลายภาษาและการปรับแบบไดนามิกให้เข้ากับภาษาของผู้ใช้
 
 ## คุณสมบัติ
 
@@ -37,15 +37,15 @@ Supports multilingual settings and dynamic adaptation to the user’s language.
 
 -   VERIFICATION_EXPIRATION_SECONDS – ค่าเริ่มต้นคือ 120 วินาที ซึ่งหมายความว่าผู้ใช้มีเวลา 120 วินาทีในการยืนยันให้เสร็จสิ้นเมื่อเข้าร่วมกลุ่ม หากล้มเหลว พวกเขาจะถูกลบออก
 -   RE_JOIN_SECONDS – ค่าเริ่มต้นคือ 120 วินาที หลังจากถูกลบออกแล้ว ผู้ใช้สามารถเข้าร่วมกลุ่มอีกครั้งได้หลังจากผ่านไป 120 วินาที
--   LANGUAGE_CODE – ค่าเริ่มต้นเป็น “en”["ใน", "zh", "es", "ของ", "nl", "มัน", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "ฟ้า", "สหราชอาณาจักร", "vi", "tr", "จะ"]
--   ADMIN_CHAT_ID - ป้อน ID แชทของคุณ หลังจากเข้าไปแล้ว หุ่นยนต์จะแจ้งให้คุณทราบเมื่อเริ่มต้นแล้ว
+-   LANGUAGE_CODE – ค่าเริ่มต้นเป็น “en”["en", "zh", "es", "ของ", "nl", "มัน", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "ฟ้า", "สหราชอาณาจักร", "vi", "tr", "จะ"]
+-   ADMIN_CHAT_ID - ป้อน ID แชทของคุณ หลังจากเข้าไปแล้ว หุ่นยนต์จะแจ้งให้คุณทราบเมื่อเริ่มทำงาน
 -   ENFORCE_PRIMARY_LANGUAGE - ค่าเริ่มต้นเป็นเท็จ 'เท็จ' หมายความว่าระบบจะสลับแบบไดนามิกตามรหัสภาษาของผู้ใช้ การตั้งค่าเป็น "จริง" หมายความว่าการกำหนดค่าทั้งหมดจะเป็นไปตามภาษาหลักที่คุณตั้งไว้
 -   UPDATE_NOTIFICATION_URL - คุณสามารถกำหนด URL การแจ้งเตือนได้ และบอทจะส่งข้อความอัปเดตผ่าน POST ไปยังแอปพลิเคชันเซิร์ฟเวอร์ของคุณ หากเว้นว่างไว้ คุณลักษณะนี้จะถูกปิดใช้งานตามค่าเริ่มต้น
 -   UPDATE_NOTIFICATION_AUTHORIZATION - คุณสามารถกำหนดส่วนหัวการอนุญาตสำหรับการตรวจสอบการแจ้งเตือนได้ หากเว้นว่างไว้ คุณลักษณะนี้จะถูกปิดใช้งานตามค่าเริ่มต้น
 
 ### ขั้นตอนที่ 3: เริ่มบอท
 
-หลังจากกำหนดค่าทุกอย่างแล้ว ให้เริ่มบอทโดยรันคำสั่งต่อไปนี้:
+After configuring everything, start the bot by running the following command:
 
 ```bash
 docker compose up -d
