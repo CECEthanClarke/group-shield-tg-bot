@@ -11,7 +11,7 @@ Group Shield Telegram Botunun ana işlevi yeni üyeleri doğrulamaktır. Kullan�
 ## Özellikler
 
 -   /mute {dakika}
-    Birisinin mesaj göndermesini engellemek için /mute komutunu kullanabilirsiniz. Kullanmadan önce kişinin mesajına yanıt verin. Varsayılan olarak sessize alma kalıcıdır ancak süreyi komuttan sonra dakika cinsinden ekleyebilirsiniz. Örneğin, “1” eklenmesi onları 1 dakikalığına susturur.
+    Birisinin mesaj göndermesini engellemek için /mute komutunu kullanabilirsiniz. Kullanmadan önce kişinin mesajına cevap verin. Varsayılan olarak sessize alma kalıcıdır ancak süreyi komuttan sonra dakika cinsinden ekleyebilirsiniz. Örneğin, “1” eklenmesi onları 1 dakikalığına susturur.
 -   /unmute Gruptaki bir kişinin sesini açmak ve tekrar mesaj göndermesine izin vermek için, komutu kullanmadan önce mesajını yanıtlayın.
 -   /kickout {dakika} 
     Bir kişiyi gruptan çıkarmak için /kickout komutunu kullanabilirsiniz. Komutu kullanmadan önce kişinin mesajını yanıtlayın. Varsayılan olarak kaldırma işlemi kalıcıdır ancak süreyi komuttan sonra dakika cinsinden ekleyebilirsiniz. Örneğin “1” eklenmesi, 1 dakika sonra yeniden katılabilecekleri anlamına gelir.
@@ -35,9 +35,9 @@ Docker-compose.yml dosyasını kaynak dizinden sunucu dizininize kopyalamanız g
 
 Doldurulduktan sonra, gitmeye hazırsınız.
 
--   VERIFICATION_EXPIRATION_SECONDS – Varsayılan olarak 120 saniyeye ayarlanır. Bu, kullanıcıların gruba katılırken doğrulama işlemini tamamlamak için 120 saniyeye sahip olduğu anlamına gelir. Başarısız olmaları durumunda kaldırılacaklardır.
+-   VERIFICATION_EXPIRATION_SECONDS – Varsayılan olarak 120 saniyedir. Bu, kullanıcıların gruba katılırken doğrulama işlemini tamamlamak için 120 saniyeye sahip olduğu anlamına gelir. Başarısız olmaları durumunda kaldırılacaklardır.
 -   RE_JOIN_SECONDS – Varsayılan olarak 120 saniyedir. Kaldırıldıktan sonra kullanıcılar 120 saniye sonra gruba yeniden katılabilirler.
--   LANGUAGE_CODE – Varsayılan olarak “en” olur.["in", "zh", "es", "of", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
+-   LANGUAGE_CODE – Varsayılan olarak “en” olur.["en", "zh", "es", "de", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms", "fa", "uk", "vi", "tr", "ja"]
 -   ADMIN_CHAT_ID - Sohbet kimliğinizi girin. Girdikten sonra robot başladığında sizi bilgilendirecektir.
 -   ENFORCE_PRIMARY_LANGUAGE - Varsayılan değer yanlıştır; 'yanlış', sistemin kullanıcının dil koduna göre dinamik olarak geçiş yapacağı anlamına gelir. 'Doğru' olarak ayarlamak, tüm yapılandırmaların ayarladığınız birincil dili takip edeceği anlamına gelir.
 -   UPDATE_NOTIFICATION_URL - Bir bildirim URL'si tanımlayabilirsiniz; bot, güncelleme mesajlarını POST aracılığıyla sunucu uygulamanıza gönderir. Boş bırakılırsa bu özellik varsayılan olarak devre dışı bırakılacaktır.
