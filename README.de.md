@@ -1,10 +1,10 @@
 ## README-Übersetzung
 
-**Sprachen:**[Englisch](README.md)\|[Vereinfachtes Chinesisch](README.zh-CN.md)\|[Traditionelles Chinesisch](README.zh-TW.md)\|[Hindi](README.hi.md)\|[Araber](README.ar.md)\|[Französisch](README.fr.md)\|[Spanisch](README.es.md)\|[Deutsch](README.de.md)\|[japanisch](README.ja.md)\|[Portugiesisch](README.pt.md)\|[Russisch](README.ru.md)\|[Italienisch](README.it.md)\|[Koreanisch](README.ko.md)\|[Türkisch](README.tr.md)\|[Niederländisch](README.nl.md)\|[Thailändisch](README.th.md)\|[Vietnamesisch](README.vi.md)\|[Polieren](README.pl.md)\|[ukrainisch](README.uk.md)\|[griechisch](README.el.md)
+**Sprachen:**[Englisch](README.md)\|[Vereinfachtes Chinesisch](README.zh-CN.md)\|[Traditionelles Chinesisch](README.zh-TW.md)\|[Hindi](README.hi.md)\|[عربى](README.ar.md)\|[Französisch](README.fr.md)\|[Spanisch](README.es.md)\|[Deutsch](README.de.md)\|[japanisch](README.ja.md)\|[Portugiesisch](README.pt.md)\|[Russisch](README.ru.md)\|[Italienisch](README.it.md)\|[Koreanisch](README.ko.md)\|[Türkisch](README.tr.md)\|[Niederländisch](README.nl.md)\|[Thailändisch](README.th.md)\|[Vietnamesisch](README.vi.md)\|[Polieren](README.pl.md)\|[ukrainisch](README.uk.md)\|[griechisch](README.el.md)
 
 # Group Shield Telegram Bot
 
-The main function of the Group Shield Telegram Bot is to verify new members. Users must pass the verification process before they can send messages in the group.
+Die Hauptfunktion des Group Shield Telegram Bot besteht darin, neue Mitglieder zu verifizieren. Benutzer müssen den Verifizierungsprozess bestehen, bevor sie Nachrichten in der Gruppe senden können.
 
 Unterstützt mehrsprachige Einstellungen und dynamische Anpassung an die Sprache des Benutzers.
 
@@ -37,7 +37,7 @@ Sobald Sie es ausgefüllt haben, können Sie loslegen.
 
 -   VERIFICATION_EXPIRATION_SECONDS – Standardmäßig 120 Sekunden. Dies bedeutet, dass Benutzer 120 Sekunden Zeit haben, um den Verifizierungsprozess abzuschließen, wenn sie der Gruppe beitreten. Wenn sie scheitern, werden sie entfernt.
 -   RE_JOIN_SECONDS – Standardmäßig 120 Sekunden. Nach dem Entfernen können Benutzer der Gruppe nach 120 Sekunden wieder beitreten.
--   LANGUAGE_CODE – Standardmäßig „en“.["en", "zh", "es", "de", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms", "fa", "uk", "vi", "tr", "ja"]
+-   LANGUAGE_CODE – Defaults to “en”. [„en“" „zh“", „es“" „of“", „nl“" „it“", „ar“" „pt“", „ko“" „ru“", „fr“" „id“", „ms " ",fa" ",uk" ",vi" ",tr" ",ja"]
 -   ADMIN_CHAT_ID – Geben Sie Ihre Chat-ID ein. Nach dem Betreten benachrichtigt Sie der Roboter, sobald er gestartet ist.
 -   ENFORCE_PRIMARY_LANGUAGE – Der Standardwert ist „false“. „false“ bedeutet, dass das System basierend auf dem Sprachcode des Benutzers dynamisch wechselt. Wenn Sie den Wert auf „true“ setzen, folgen alle Konfigurationen der von Ihnen festgelegten primären Sprache.
 -   UPDATE_NOTIFICATION_URL – Sie können eine Benachrichtigungs-URL definieren und der Bot sendet Aktualisierungsnachrichten per POST an Ihre Serveranwendung. Wenn Sie das Feld leer lassen, ist diese Funktion standardmäßig deaktiviert.
