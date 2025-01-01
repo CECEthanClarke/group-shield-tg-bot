@@ -31,7 +31,7 @@ You need to copy the docker-compose.yml file from the source directory to your s
 Once filled in, you’re good to go.
 - VERIFICATION_EXPIRATION_SECONDS – Defaults to 120 seconds. This means users have 120 seconds to complete the verification process when joining the group. If they fail, they will be removed.
 - RE_JOIN_SECONDS – Defaults to 120 seconds. After being removed, users can rejoin the group after 120 seconds.
-- LANGUAGE_CODE – Defaults to “en”. ['en', 'fr', 'de', 'pt', 'ja', 'ru', 'ar', 'es', 'zh', 'ko']
+- LANGUAGE_CODE – Defaults to “en”. ["en", "zh", "es", "de", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms", "fa", "uk", "vi", "tr", "ja"]
 - ADMIN_CHAT_ID - Enter your chat ID. After entering, the robot will notify you once it has started.
 - ENFORCE_PRIMARY_LANGUAGE - Defaults to false, ‘false’ means the system will dynamically switch based on the user’s language code. Setting it to ‘true’ means all configurations will follow the primary language you set.
 - UPDATE_NOTIFICATION_URL - You can define a notification URL, and the bot will send update messages via POST to your server application. If left blank, this feature will be disabled by default.
