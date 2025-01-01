@@ -1,6 +1,6 @@
 ## README-vertaling
 
-**Talen:**[Engels](README.md)\|[Vereenvoudigd Chinees](README.zh-CN.md)\|[Traditioneel Chinees](README.zh-TW.md)\|[Hindi](README.hi.md)\|[Arabisch](README.ar.md)\|[Frans](README.fr.md)\|[Spaans](README.es.md)\|[Duits](README.de.md)\|[Japanse](README.ja.md)\|[Portugees](README.pt.md)\|[Russisch](README.ru.md)\|[Italiaans](README.it.md)\|[Koreaans](README.ko.md)\|[Turks](README.tr.md)\|[Nederlands](README.nl.md)\|[Thais](README.th.md)\|[Vietnamees](README.vi.md)\|[Pools](README.pl.md)\|[Oekraïens](README.uk.md)\|[Grieks](README.el.md)
+**Talen:**[Engels](README.md)\|[Vereenvoudigd Chinees](README.zh-CN.md)\|[Traditioneel Chinees](README.zh-TW.md)\|[Hindi](README.hi.md)\|[Arabisch](README.ar.md)\|[Frans](README.fr.md)\|[Spaans](README.es.md)\|[Duits](README.de.md)\|[Japanse](README.ja.md) \| [Portugees](README.pt.md)\|[Russisch](README.ru.md)\|[Italiaans](README.it.md)\|[Koreaans](README.ko.md)\|[Turks](README.tr.md)\|[Nederlands](README.nl.md)\|[Thais](README.th.md)\|[Vietnamees](README.vi.md)\|[Pools](README.pl.md)\|[Oekraïens](README.uk.md)\|[Grieks](README.el.md)
 
 # Groepsschild Telegram Bot
 
@@ -37,7 +37,7 @@ Eenmaal ingevuld, bent u klaar om te gaan.
 
 -   VERIFICATION_EXPIRATION_SECONDS – Standaard ingesteld op 120 seconden. Dit betekent dat gebruikers 120 seconden de tijd hebben om het verificatieproces te voltooien wanneer ze lid worden van de groep. Als ze niet slagen, worden ze verwijderd.
 -   RE_JOIN_SECONDS – Standaard ingesteld op 120 seconden. Nadat ze zijn verwijderd, kunnen gebruikers na 120 seconden weer lid worden van de groep.
--   LANGUAGE_CODE – Standaard ingesteld op “en”.["in", "zh", "es", "of", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
+-   LANGUAGE_CODE – Standaard ingesteld op “en”.["en", "zh", "es", "of", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
 -   ADMIN_CHAT_ID - Voer uw chat-ID in. Na binnenkomst geeft de robot u een melding zodra hij is gestart.
 -   ENFORCE_PRIMARY_LANGUAGE - Standaard ingesteld op false, 'false' betekent dat het systeem dynamisch zal overschakelen op basis van de taalcode van de gebruiker. Als u dit op ‘waar’ instelt, zullen alle configuraties de primaire taal volgen die u instelt.
 -   UPDATE_NOTIFICATION_URL - U kunt een meldings-URL definiëren en de bot verzendt updateberichten via POST naar uw serverapplicatie. Als u dit veld leeg laat, wordt deze functie standaard uitgeschakeld.
