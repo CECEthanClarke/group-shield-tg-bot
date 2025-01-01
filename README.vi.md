@@ -1,6 +1,6 @@
 ## Bản dịch README
 
-**Ngôn ngữ:**[Tiếng Anh](README.md)\|[Tiếng Trung giản thể](README.zh-CN.md)\|[Tiếng Trung phồn thể](README.zh-TW.md)\|[Tiếng Hindi](README.hi.md)\|[Ả Rập](README.ar.md)\|[người Pháp](README.fr.md)\|[tiếng Tây Ban Nha](README.es.md)\|[tiếng Đức](README.de.md)\|[tiếng Nhật](README.ja.md)\|[tiếng Bồ Đào Nha](README.pt.md)\|[tiếng Nga](README.ru.md)\|[người Ý](README.it.md)\|[hàn quốc](README.ko.md)\|[tiếng Thổ Nhĩ Kỳ](README.tr.md)\|[tiếng Hà Lan](README.nl.md)\|[tiếng Thái](README.th.md)\|[Tiếng Việt](README.vi.md)\|[Đánh bóng](README.pl.md)\|[tiếng Ukraina](README.uk.md)\|[tiếng Hy Lạp](README.el.md)
+**Ngôn ngữ:**[Tiếng Anh](README.md)\|[Tiếng Trung giản thể](README.zh-CN.md)\|[Tiếng Trung phồn thể](README.zh-TW.md)\|[Tiếng Hindi](README.hi.md)\|[Ả Rập](README.ar.md)\|[người Pháp](README.fr.md)\|[tiếng Tây Ban Nha](README.es.md)\|[tiếng Đức](README.de.md)\|[tiếng Nhật](README.ja.md)\|[tiếng Bồ Đào Nha](README.pt.md)\|[tiếng Nga](README.ru.md)\|[người Ý](README.it.md)\|[hàn quốc](README.ko.md)\|[tiếng Thổ Nhĩ Kỳ](README.tr.md)\|[tiếng Hà Lan](README.nl.md)\|[Thái](README.th.md)\|[Tiếng Việt](README.vi.md)\|[Đánh bóng](README.pl.md)\|[tiếng Ukraina](README.uk.md)\|[tiếng Hy Lạp](README.el.md)
 
 # Nhóm Shield Telegram Bot
 
@@ -22,7 +22,7 @@ Hỗ trợ cài đặt đa ngôn ngữ và thích ứng linh hoạt với ngôn 
 
 ### Bước 1: Tạo Bot Telegram của bạn
 
-1.  đi tới**@BotFather**trên Telegram và sử dụng`/newbot`lệnh để tạo bot của bạn.
+1.  đi đến**@BotFather**trên Telegram và sử dụng`/newbot`lệnh để tạo bot của bạn.
 2.  Làm theo lời nhắc để cung cấp thông tin cần thiết.
 3.  Sau khi được tạo,**@BotFather**sẽ gửi cho bạn mã thông báo của bot. Mã thông báo này rất cần thiết cho việc triển khai—hãy lưu nó để sử dụng sau.
 
@@ -37,7 +37,7 @@ Sau khi điền xong, bạn đã sẵn sàng để đi.
 
 -   VERIFICATION_EXPIration_SECONDS – Mặc định là 120 giây. Điều này có nghĩa là người dùng có 120 giây để hoàn tất quy trình xác minh khi tham gia nhóm. Nếu thất bại, họ sẽ bị loại bỏ.
 -   RE_JOIN_SECONDS – Mặc định là 120 giây. Sau khi bị xóa, người dùng có thể tham gia lại nhóm sau 120 giây.
--   LANGUAGE_CODE – Mặc định là “en”.["trong", "zh", "es", "của", "nl", "nó", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
+-   LANGUAGE_CODE – Mặc định là “en”.["en", "zh", "es", "của", "nl", "nó", "ar", "pt", "ko", "ru", "fr", "id", "ms ", "fa", "uk", "vi", "tr", "ja"]
 -   ADMIN_CHAT_ID - Nhập ID trò chuyện của bạn. Sau khi vào, robot sẽ thông báo cho bạn khi nó đã bắt đầu.
 -   ENFORCE_PRIMARY_LANGUAGE - Mặc định là sai, ‘false’ có nghĩa là hệ thống sẽ tự động chuyển đổi dựa trên mã ngôn ngữ của người dùng. Đặt thành 'true' có nghĩa là tất cả cấu hình sẽ tuân theo ngôn ngữ chính bạn đặt.
 -   UPDATE_NOTIFICATION_URL - Bạn có thể xác định URL thông báo và bot sẽ gửi thông báo cập nhật qua POST tới ứng dụng máy chủ của bạn. Nếu để trống, tính năng này sẽ bị tắt theo mặc định.
