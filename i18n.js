@@ -6,7 +6,7 @@ const ISO6391 = require('iso-639-1');
 
 const i18n = {
   lang: 'en',
-  langs: ['en', 'fr', 'de', 'pt', 'ja', 'ru', 'ar', 'es', 'zh', 'ko'],
+  langs: ["en", "zh", "es", "de", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms", "fa", "uk", "vi", "tr", "ja"],
   enforcePrimaryLanguage: false,
   cache: {},
   userLangCache: new Map(),

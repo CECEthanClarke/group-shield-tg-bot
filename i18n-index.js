@@ -9,7 +9,7 @@ require('dotenv').config();
 const DEFAULT_LANG = 'en';
 const AI_KEY = process.env.AI_KEY;
 const AI_MODEL = 'gpt-4o-mini';
-const LANGS = ['fr', 'de', 'pt', 'ja', 'ru', 'ar', 'es', 'zh', 'ko'];
+const LANGS = ["zh", "es", "de", "nl", "it", "ar", "pt", "ko", "ru", "fr", "id", "ms", "fa", "uk", "vi", "tr", "ja"];
 const LANG_DIR_NAME = 'locales'
 const I18N_LOG_FILE = path.join(__dirname, `i18n-log.json`);
 

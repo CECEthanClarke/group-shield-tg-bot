@@ -1,0 +1,37 @@
+command_start_description: شروع
+command_mute_description: سکوت کردن کسی در گروه
+command_unmute_description: یک نفر را در گروه بی‌صدا کنید
+command_help_description: کمک
+command_kickout_description: اخراج از گروه
+command_language_description: زبان را عوض کن
+button_invite_to_join_group: دعوت به پیوستن به گروه
+button_click_to_verify: برای تأیید کلیک کنید
+button_got_it: متوجه شدم
+reply_bot_started: ربات با موفقیت راه اندازی شد.
+reply_start_text: این یک ربات مدیریت گروه متن باز با قابلیت‌های تایید خودکار،
+  ساکت کردن و اخراج سریع است.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: به گروه ${chat_title} خوش آمدید ${user_name}!
+  لطفاً برای پیوستن، تأیید هویت را کامل کنید. شما ${seconds} ثانیه وقت دارید تا
+  تأیید هویت را کامل کنید، در غیر این صورت منقضی خواهد شد.
+reply_verifying_send_text: شما در گروه ${chat_title} در حال تأیید هستید. لطفاً
+  به سؤال زیر با کلیک روی یکی از گزینه‌های پایین پاسخ دهید.
+reply_you_dont_have_verification_in_group: شما تأیید لازم را در این گروه ندارید.
+reply_verification_expired: این تأیید اعتبار خود را از دست داده است. لطفاً به
+  گروه بازگردید و دوباره برای تأیید کلیک کنید.
+reply_wrong_choice_text: انتخاب نادرستی بود، پاسخ صحیح ${answer} است. شما از
+  گروه اخراج شده‌اید. می‌توانید پس از تأیید مجدد، در ${seconds} ثانیه دوباره به
+  گروه بپیوندید.
+reply_chosen_answer_correct_text: پاسخ انتخابی شما صحیح است. اکنون می‌توانید به‌طور آزادانه در گروه صحبت کنید.
+reply_please_reply_to_a_message: لطفاً ابتدا به یک پیام خاص پاسخ دهید قبل از اینکه این دستور را اجرا کنید.
+reply_not_have_permissions: شما مجوز کافی برای اجرای این فرمان را ندارید.
+reply_insufficient_bot_permissions: ناموفق، احتمالاً به دلیل ناکافی بودن مجوزهای ربات.
+reply_mute_successful: بی‌صدا کردن با موفقیت انجام شد.
+reply_unmute_successful: غیرفعال کردن صدا با موفقیت انجام شد.
+reply_kickout_successful: اخراج موفقیت‌آمیز بود.
+reply_switch_language: به طور پیش‌فرض، زبان به‌طور خودکار بر اساس تنظیمات TG شما
+  تغییر می‌کند. اگر می‌خواهید زبان را تغییر دهید، روی زبان زیر کلیک کنید تا آن
+  را تنظیم کنید. پس از تنظیم، تغییر دائمی است.
+reply_operation_successful: عملیات با موفقیت انجام شد
+reply_operation_failed: عملیات ناموفق بود
+reply_command_only_be_configured_interface_with_bot: این دستور فقط در رابط چت با ربات قابل پیکربندی است.

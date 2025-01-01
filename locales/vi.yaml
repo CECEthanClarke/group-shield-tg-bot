@@ -1,0 +1,36 @@
+command_start_description: Bắt đầu
+command_mute_description: Tạm im ai đó trong nhóm
+command_unmute_description: Bỏ câm ai đó trong nhóm
+command_help_description: Giúp đỡ
+command_kickout_description: Đuổi ra khỏi nhóm
+command_language_description: Chuyển ngôn ngữ
+button_invite_to_join_group: Mời tham gia nhóm
+button_click_to_verify: Nhấn để xác minh
+button_got_it: Đã hiểu
+reply_bot_started: Bot đã khởi động thành công.
+reply_start_text: Đây là một bot quản lý nhóm nguồn mở với tính năng xác minh tự
+  động, tắt tiếng và đá nhanh.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Chào mừng ${user_name} đến với nhóm
+  ${chat_title}! Vui lòng hoàn tất xác minh để tham gia. Bạn có ${seconds} giây
+  để hoàn thành xác minh, hoặc nó sẽ hết hạn.
+reply_verifying_send_text: Bạn đang xác minh trong nhóm ${chat_title}. Vui lòng
+  trả lời câu hỏi sau bằng cách nhấp vào một trong các tùy chọn bên dưới.
+reply_you_dont_have_verification_in_group: Bạn không có xác minh cần thiết trong nhóm này.
+reply_verification_expired: Xác thực này đã hết hạn. Vui lòng quay lại nhóm và nhấp vào để xác thực lại.
+reply_wrong_choice_text: Lựa chọn sai, câu trả lời đúng là ${answer}. Bạn đã bị
+  loại khỏi nhóm. Bạn có thể tham gia lại nhóm trong ${seconds} giây sau khi xác
+  minh lại.
+reply_chosen_answer_correct_text: Câu trả lời bạn chọn là đúng. Bạn có thể nói chuyện thoải mái trong nhóm.
+reply_please_reply_to_a_message: Vui lòng trả lời một tin nhắn cụ thể trước khi thực hiện lệnh này.
+reply_not_have_permissions: Bạn không đủ quyền để thực hiện lệnh này.
+reply_insufficient_bot_permissions: Thất bại, có thể do quyền hạn của bot không đủ.
+reply_mute_successful: Tắt tiếng thành công.
+reply_unmute_successful: Bỏ tiếng thành công.
+reply_kickout_successful: Đuổi ra thành công.
+reply_switch_language: Theo mặc định, ngôn ngữ sẽ tự động chuyển đổi dựa trên
+  cài đặt TG của bạn. Nếu bạn muốn thay đổi ngôn ngữ, hãy nhấp vào ngôn ngữ bên
+  dưới để thiết lập. Khi đã thiết lập, sự thay đổi này sẽ là vĩnh viễn.
+reply_operation_successful: Hoạt động thành công
+reply_operation_failed: Hoạt động không thành công
+reply_command_only_be_configured_interface_with_bot: Lệnh này chỉ có thể được cấu hình trong giao diện trò chuyện với bot.

@@ -1,0 +1,39 @@
+command_start_description: Mula
+command_mute_description: Senyapkan seseorang dalam kumpulan
+command_unmute_description: Lepaskan bisu seseorang dalam kumpulan
+command_help_description: Bantuan
+command_kickout_description: Keluarkan dari kumpulan
+command_language_description: Tukar bahasa
+button_invite_to_join_group: Jemput untuk menyertai kumpulan
+button_click_to_verify: Klik untuk mengesahkan
+button_got_it: Faham
+reply_bot_started: Bot telah berjaya dimulakan.
+reply_start_text: Ini adalah bot pengurusan kumpulan sumber terbuka dengan
+  fungsi pengesahan automatik, senyap, dan pengusiran cepat.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Selamat datang ${user_name} ke kumpulan
+  ${chat_title}! Sila lengkapkan pengesahan untuk menyertai. Anda mempunyai
+  ${seconds} saat untuk menyelesaikan pengesahan, atau ia akan tamat.
+reply_verifying_send_text: Anda sedang mengesahkan dalam kumpulan ${chat_title}.
+  Sila jawab soalan berikut dengan mengklik salah satu pilihan di bawah.
+reply_you_dont_have_verification_in_group: Anda tidak mempunyai pengesahan yang diperlukan dalam kumpulan ini.
+reply_verification_expired: Pengesahan ini telah tamat. Sila kembali ke kumpulan
+  dan klik untuk mengesahkan semula.
+reply_wrong_choice_text: Pilihan salah, jawapan yang betul adalah ${answer}.
+  Anda telah dikeluarkan dari kumpulan. Anda boleh menyertai semula kumpulan
+  dalam ${seconds} saat selepas pengesahan semula.
+reply_chosen_answer_correct_text: Jawapan yang anda pilih adalah betul. Anda
+  kini boleh bercakap dengan bebas dalam kumpulan.
+reply_please_reply_to_a_message: Sila balas kepada mesej tertentu terlebih
+  dahulu sebelum melaksanakan arahan ini.
+reply_not_have_permissions: Anda tidak mempunyai kebenaran yang mencukupi untuk melaksanakan arahan ini.
+reply_insufficient_bot_permissions: Gagal, kemungkinan disebabkan oleh kebenaran bot yang tidak mencukupi.
+reply_mute_successful: Berjaya satu senyap.
+reply_unmute_successful: Unmute berjaya.
+reply_kickout_successful: Keluarkan berjaya.
+reply_switch_language: Secara default, bahasa akan bertukar secara automatik
+  berdasarkan tetapan TG anda. Jika anda ingin menukar bahasa, klik bahasa di
+  bawah untuk menetapkannya. Setelah ditetapkan, perubahan itu adalah tetap.
+reply_operation_successful: Operasi berjaya
+reply_operation_failed: Operasi gagal
+reply_command_only_be_configured_interface_with_bot: Arahan ini hanya boleh dikonfigurasi dalam antara muka sembang dengan bot.

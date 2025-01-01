@@ -1,0 +1,38 @@
+command_start_description: Iniciar
+command_mute_description: Silenciar a alguien en el grupo
+command_unmute_description: Desactivar el silencio de alguien en el grupo
+command_help_description: Ayuda
+command_kickout_description: Expulser du groupe
+command_language_description: Cambiar idioma
+button_invite_to_join_group: Приглашение присоединиться к группе
+button_click_to_verify: Cliquez pour vérifier
+button_got_it: Entendido
+reply_bot_started: Бот успешно запущен.
+reply_start_text: Este es un bot de gestión de grupos de código abierto con
+  funciones de verificación automática, silencio y expulsión rápida.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: ¡Bienvenido ${user_name} al grupo ${chat_title}!
+  Por favor completa la verificación para unirte. Tienes ${seconds} segundos
+  para finalizar la verificación, o esta expirará.
+reply_verifying_send_text: Vous vérifiez dans le groupe ${chat_title}. Veuillez
+  répondre à la question suivante en cliquant sur l'une des options ci-dessous.
+reply_you_dont_have_verification_in_group: No tienes la verificación requerida en este grupo.
+reply_verification_expired: Esta verificación ha expirado. Por favor, regresa al
+  grupo y haz clic para verificar nuevamente.
+reply_wrong_choice_text: Choix incorrect, la bonne réponse est ${answer}. Vous
+  avez été expulsé du groupe. Vous pouvez rejoindre le groupe dans ${seconds}
+  secondes après re-vérification.
+reply_chosen_answer_correct_text: Ваш выбранный ответ правильный. Теперь вы можете свободно говорить в группе.
+reply_please_reply_to_a_message: Por favor, responda a un mensaje específico
+  primero antes de ejecutar este comando.
+reply_not_have_permissions: Vous n'avez pas suffisamment d'autorisations pour exécuter cette commande.
+reply_insufficient_bot_permissions: Échoué, probablement en raison de permissions insuffisantes pour le bot.
+reply_mute_successful: Silenciamiento exitoso.
+reply_unmute_successful: Desactivar silencio exitoso.
+reply_kickout_successful: Éjection réussie.
+reply_switch_language: Por defecto, el idioma cambiará automáticamente según la
+  configuración de tu TG. Si deseas cambiar el idioma, haz clic en el idioma a
+  continuación para configurarlo. Una vez configurado, el cambio es permanente.
+reply_operation_successful: Операция выполнена успешно
+reply_operation_failed: Ouvbane échoué
+reply_command_only_be_configured_interface_with_bot: Esta orden solo se puede configurar en la interfaz de chat con el bot.

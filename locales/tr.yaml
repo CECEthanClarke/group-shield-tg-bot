@@ -1,0 +1,37 @@
+command_start_description: Başla
+command_mute_description: Grupta birini sessize al
+command_unmute_description: Grupta birini sesini aç
+command_help_description: Yardım
+command_kickout_description: Gruptan atmak
+command_language_description: Dili değiştir
+button_invite_to_join_group: Gruba katılmaya davet et
+button_click_to_verify: Doğrulamak için tıklayın
+button_got_it: Anladım
+reply_bot_started: Bot başarıyla başlatıldı.
+reply_start_text: Bu, otomatik doğrulama, sessize alma ve hızlı atma işlevlerine
+  sahip açık kaynaklı grup yönetim botudur.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: ${user_name} ${chat_title} grubuna hoş geldiniz!
+  Katılmak için lütfen doğrulamayı tamamlayın. Doğrulamayı tamamlamak için
+  ${seconds} saniyeniz var, aksi takdirde süresi dolacaktır.
+reply_verifying_send_text: ${chat_title} grubunda doğrulama yapıyorsunuz. Lütfen
+  aşağıdaki seçeneklerden birine tıklayarak aşağıdaki soruyu yanıtlayın.
+reply_you_dont_have_verification_in_group: Bu grupta gerekli doğrulama yok.
+reply_verification_expired: Bu doğrulama süresi dolmuş. Lütfen gruba geri dönün
+  ve tekrar doğrulamak için tıklayın.
+reply_wrong_choice_text: Yanlış seçim, doğru cevap ${answer}. Grubun dışına
+  atıldın. Yeniden doğrulamadan sonra grubuna ${seconds} saniye içinde tekrar
+  katılabilirsin.
+reply_chosen_answer_correct_text: Seçtiğiniz cevap doğru. Artık grupta serbestçe konuşabilirsiniz.
+reply_please_reply_to_a_message: Lütfen bu komutu yürütmeden önce belirli bir mesaja yanıt verin.
+reply_not_have_permissions: Bu komutu yürütmek için yeterli izinlere sahip değilsiniz.
+reply_insufficient_bot_permissions: Başarısız, muhtemelen yetersiz bot izinlerinden dolayı.
+reply_mute_successful: Susturma başarılı.
+reply_unmute_successful: Ses açma başarılı.
+reply_kickout_successful: Başarıyla atıldı.
+reply_switch_language: Varsayılan olarak, dil otomatik olarak TG ayarlarınıza
+  göre değişecektir. Dili değiştirmek istiyorsanız, ayarlamak için aşağıdaki
+  dile tıklayın. Bir kez ayarlandığında, değişiklik kalıcıdır.
+reply_operation_successful: Operasyon başarılı
+reply_operation_failed: İşlem başarısız oldu
+reply_command_only_be_configured_interface_with_bot: Bu komut yalnızca bot ile sohbet arayüzünde yapılandırılabilir.

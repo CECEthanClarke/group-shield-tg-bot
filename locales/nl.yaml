@@ -1,0 +1,38 @@
+command_start_description: Begin
+command_mute_description: Iemand in de groep dempen
+command_unmute_description: Iemand in de groep dempen
+command_help_description: Help
+command_kickout_description: Uit de groep zetten
+command_language_description: Taal wisselen
+button_invite_to_join_group: Uitnodigen om lid te worden van de groep
+button_click_to_verify: Klik om te verifiëren
+button_got_it: Snap het
+reply_bot_started: Bot is met succes gestart.
+reply_start_text: Dit is een open-source groepsbeheerbot met automatische
+  verificatie, dempen en snelle schoffelfuncties.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Welkom ${user_name} bij de ${chat_title} groep!
+  Voltooi de verificatie om lid te worden. Je hebt ${seconds} seconden om de
+  verificatie te voltooien, anders verloopt deze.
+reply_verifying_send_text: Je bent aan het verifiëren in de ${chat_title} groep.
+  Beantwoord alstublieft de volgende vraag door op een van de opties hieronder
+  te klikken.
+reply_you_dont_have_verification_in_group: Je hebt de vereiste verificatie in deze groep niet.
+reply_verification_expired: Deze verificatie is verlopen. Ga terug naar de groep
+  en klik om opnieuw te verifiëren.
+reply_wrong_choice_text: Verkeerde keuze, het juiste antwoord is ${answer}. Je
+  bent uit de groep gegooid. Je kunt de groep opnieuw binnenkomen in ${seconds}
+  seconden na herverificatie.
+reply_chosen_answer_correct_text: Jouw gekozen antwoord is correct. Je kunt nu vrijuit in de groep spreken.
+reply_please_reply_to_a_message: Beantwoord eerst een specifiek bericht voordat je dit commando uitvoert.
+reply_not_have_permissions: Je hebt niet voldoende bevoegdheden om deze opdracht uit te voeren.
+reply_insufficient_bot_permissions: Mislukt, waarschijnlijk door onvoldoende botmachtigingen.
+reply_mute_successful: Dempen geslaagd.
+reply_unmute_successful: Dempen succesvol.
+reply_kickout_successful: Uitschoppen geslaagd.
+reply_switch_language: Standaard zal de taal automatisch schakelen op basis van
+  je TG-instellingen. Als je de taal wilt wijzigen, klik dan op de taal
+  hieronder om deze in te stellen. Eenmaal ingesteld, is de wijziging permanent.
+reply_operation_successful: Operatie geslaagd
+reply_operation_failed: Operatie mislukt
+reply_command_only_be_configured_interface_with_bot: Deze opdracht kan alleen worden geconfigureerd in de chatinterface met de bot.

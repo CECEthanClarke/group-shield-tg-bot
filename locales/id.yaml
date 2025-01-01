@@ -1,0 +1,38 @@
+command_start_description: Mulai
+command_mute_description: Diamkan seseorang di grup
+command_unmute_description: Buka suara seseorang di grup
+command_help_description: Bantuan
+command_kickout_description: Keluarkan dari grup
+command_language_description: Ganti bahasa
+button_invite_to_join_group: Undang untuk bergabung dengan grup
+button_click_to_verify: Klik untuk memverifikasi
+button_got_it: Mengerti
+reply_bot_started: Bot telah berhasil dimulai.
+reply_start_text: Ini adalah bot manajemen grup sumber terbuka dengan verifikasi
+  otomatis, mute, dan fungsi kick cepat.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Selamat datang ${user_name} di grup
+  ${chat_title}! Silakan selesaikan verifikasi untuk bergabung. Anda memiliki
+  ${seconds} detik untuk menyelesaikan verifikasi, atau itu akan kedaluwarsa.
+reply_verifying_send_text: Anda sedang memverifikasi di grup ${chat_title}.
+  Mohon jawab pertanyaan berikut dengan mengklik salah satu opsi di bawah ini.
+reply_you_dont_have_verification_in_group: Anda tidak memiliki verifikasi yang diperlukan di grup ini.
+reply_verification_expired: Verifikasi ini telah kedaluwarsa. Silakan kembali ke
+  grup dan klik untuk memverifikasi lagi.
+reply_wrong_choice_text: Pilihan yang salah, jawaban yang benar adalah
+  ${answer}. Anda telah dikeluarkan dari grup. Anda dapat bergabung kembali ke
+  grup dalam ${seconds} detik setelah verifikasi ulang.
+reply_chosen_answer_correct_text: Jawaban yang Anda pilih benar. Anda sekarang
+  dapat berbicara dengan bebas di grup.
+reply_please_reply_to_a_message: Silakan balas pesan tertentu terlebih dahulu sebelum menjalankan perintah ini.
+reply_not_have_permissions: Anda tidak memiliki izin yang cukup untuk menjalankan perintah ini.
+reply_insufficient_bot_permissions: Gagal, kemungkinan karena izin bot yang tidak cukup.
+reply_mute_successful: Bisikan berhasil.
+reply_unmute_successful: Tidak diamkan berhasil.
+reply_kickout_successful: Keluar berhasil.
+reply_switch_language: Secara default, bahasa akan secara otomatis berubah
+  berdasarkan pengaturan TG Anda. Jika Anda ingin mengubah bahasa, klik bahasa
+  di bawah untuk mengaturnya. Setelah diatur, perubahan akan bersifat permanen.
+reply_operation_successful: Operasi berhasil
+reply_operation_failed: Operasi gagal
+reply_command_only_be_configured_interface_with_bot: Perintah ini hanya dapat dikonfigurasi di antarmuka obrolan dengan bot.

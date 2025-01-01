@@ -9,7 +9,15 @@
       "ar",
       "es",
       "ko",
-      "zh"
+      "zh",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "command_start_description",
     "sign": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644"
@@ -24,7 +32,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "command_mute_description",
     "sign": "deb0fe7e32721baf66b18cf2829bf3525c664ca7f2472bd68445bd7b1871f111"
@@ -39,7 +55,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "command_unmute_description",
     "sign": "f75ca9be98b61e778b8422f6b01a21293017543bfea3520be8adfae5aac3e6a7"
@@ -54,7 +78,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "command_help_description",
     "sign": "b79cac926e0b2e347e72cc91d5174037c9e17ae7733fd7bdb570f71b10cd7bfc"
@@ -69,7 +101,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "command_kickout_description",
     "sign": "71c29849e8895faa3151c3fd1b06a225eada56701957c997be0e8ac70f300506"
@@ -84,7 +124,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "button_invite_to_join_group",
     "sign": "48d289c53fa5428ed224bfc2c36311f1d391fca000c448c15cbbd2adbe90121b"
@@ -99,7 +147,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "button_click_to_verify",
     "sign": "ef80972e346013b1467ebbb6da022ae7c37b9a94e1aeef67afc5ed7fa313650d"
@@ -114,7 +170,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_bot_started",
     "sign": "d34b8c9bd22d3c8105b016ca314d488dfc40ffc1034e5e5bd25b2b4cc1f2e466"
@@ -129,7 +193,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_start_text",
     "sign": "6011f9d571a494b91ea2066006cf836ea6eef531d42ad4882759422c42636004"
@@ -144,7 +216,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_help_text",
     "sign": "61ca526718f7ea44653a3b302a2e349722d50a4ede4e3d973c202318d0c4bf8f"
@@ -159,7 +239,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_group_verification_text",
     "sign": "c56a82465225a7f5bc9282a4fd369fa12ac1acebc290d2c681670ca8caf93978"
@@ -174,7 +262,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_verifying_send_text",
     "sign": "e95db5837387a68ec99c252f5acfb3ca183e75e0c3e22b7c3a7c0f712ee26e7c"
@@ -189,7 +285,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_you_dont_have_verification_in_group",
     "sign": "2ed09918e6f3b0d93ecb6c42de6d14be7e95846cc7003e63987b9cb977ecb006"
@@ -204,7 +308,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_verification_expired",
     "sign": "07fc842a6c765009e5bc503c05fc322a6d8ac728b72b928910b4b822483993b9"
@@ -219,7 +331,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_wrong_choice_text",
     "sign": "208c0e601fb42c9e9f7a088bce39272d21152e572a4064e6e934ea4d09df4abd"
@@ -234,7 +354,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_chosen_answer_correct_text",
     "sign": "d51e56798f5d807e8b209703cf41a1eeed7c54ec819cf59a8d3fbb0d850cfbc8"
@@ -249,7 +377,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_please_reply_to_a_message",
     "sign": "5e72098b3eb8837f0d28f011afa671fb496ba3b84c88e70c8878d517fa59f099"
@@ -264,7 +400,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_not_have_permissions",
     "sign": "7f15bdc0a4f55e5924670b625ab5e96114b4c5b147c005d978531d848eb4d265"
@@ -279,7 +423,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_insufficient_bot_permissions",
     "sign": "75584e691ea9c1ce6b79334a269386c4a2982d179db4c9f34c3175e7b67ab436"
@@ -294,7 +446,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_mute_successful",
     "sign": "deee20e1791f91d3e236590d06d77b8761d11f4c828f57470cfca3e3fea447e3"
@@ -309,7 +469,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_unmute_successful",
     "sign": "cd9cb53531bb041837eac25852dce408946b2577ee33bcb7e05d5529f9e0792d"
@@ -324,7 +492,15 @@
       "ru",
       "ar",
       "es",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_kickout_successful",
     "sign": "3ac703763723bbd3d9c08dbfe69e111c3962d020c94971951ee5cbd6c3a69030"
@@ -339,7 +515,15 @@
       "ar",
       "es",
       "zh",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "command_language_description",
     "sign": "361335922f0b62e6b0cea50507a3093512eb196d87c1ebd4258122c5468d93eb"
@@ -354,7 +538,15 @@
       "ar",
       "es",
       "zh",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "button_got_it",
     "sign": "5ad3dbd1242a4cea217e8b68a9fd2c8187f2c337258279193f6d9a31a9f1a69c"
@@ -369,7 +561,15 @@
       "ar",
       "es",
       "zh",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_switch_language",
     "sign": "12f688b32bda5bef2c3999313cbdb3b8b835b783f3364efc089ff48fc91340b7"
@@ -384,7 +584,15 @@
       "ar",
       "es",
       "zh",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_operation_successful",
     "sign": "387e71d005afb4825e62be7ba91b3ff7dfdd14fe694d20df6c4e8fcd25574986"
@@ -399,7 +607,15 @@
       "ar",
       "es",
       "zh",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_operation_failed",
     "sign": "4e1af7c74096cf0a47ce343febcea35ec03b9599324314b5b8fc1de2fa479705"
@@ -414,7 +630,15 @@
       "ar",
       "es",
       "zh",
-      "ko"
+      "ko",
+      "nl",
+      "it",
+      "id",
+      "ms",
+      "fa",
+      "uk",
+      "vi",
+      "tr"
     ],
     "key": "reply_command_only_be_configured_interface_with_bot",
     "sign": "8a3388ec8ed2bd958a4e6c1fa1b0d7dd2c106b3a3d5243472f672d1304151479"

@@ -1,0 +1,39 @@
+command_start_description: Почати
+command_mute_description: Заглушити кого-небудь у групі
+command_unmute_description: Зняти з мовчання когось у групі
+command_help_description: Допомога
+command_kickout_description: Викинути з групи
+command_language_description: Змінити мову
+button_invite_to_join_group: Запрошення приєднатися до групи
+button_click_to_verify: Натисніть, щоб підтвердити
+button_got_it: Зрозуміло
+reply_bot_started: Бот успішно запущений.
+reply_start_text: Це бот для управління групами з відкритим кодом з автоматичною
+  перевіркою, вимкненням звуку та швидким видаленням.
+reply_help_text: https://github.com/CECEthanClarke/group-shield-tg-bot
+reply_group_verification_text: Ласкаво просимо ${user_name} до групи
+  ${chat_title}! Будь ласка, заверште верифікацію, щоб приєднатися. У вас є
+  ${seconds} секунд, щоб завершити верифікацію, інакше вона закінчиться.
+reply_verifying_send_text: Ви перевіряєте в групі ${chat_title}. Будь ласка,
+  відповідайте на наступне питання, натиснувши одну з наведених нижче опцій.
+reply_you_dont_have_verification_in_group: У вас немає необхідної верифікації в цій групі.
+reply_verification_expired: Ця перевірка вичерпала термін дії. Будь ласка,
+  поверніться до групи та натисніть, щоб перевірити ще раз.
+reply_wrong_choice_text: Неправильний вибір, правильна відповідь - ${answer}. Ви
+  були виключені з групи. Ви можете повторно приєднатися до групи за ${seconds}
+  секунд після повторної перевірки.
+reply_chosen_answer_correct_text: Ваша обрана відповідь є правильною. Тепер ви
+  можете вільно висловлюватися в групі.
+reply_please_reply_to_a_message: Будь ласка, спочатку відповідайте на конкретне
+  повідомлення перед виконанням цієї команди.
+reply_not_have_permissions: Вам не достатньо прав для виконання цієї команди.
+reply_insufficient_bot_permissions: Не вдалося, ймовірно, через недостатні дозволи бота.
+reply_mute_successful: Опатування успішне.
+reply_unmute_successful: Успішно вимкнуто без звуку.
+reply_kickout_successful: Вигнання успішне.
+reply_switch_language: За замовчуванням мова буде автоматично змінюватися
+  залежно від ваших налаштувань TG. Якщо ви хочете змінити мову, натисніть на
+  мову нижче, щоб встановити її. Після встановлення зміни залишаться постійними.
+reply_operation_successful: Операція успішна
+reply_operation_failed: Операція не виконана
+reply_command_only_be_configured_interface_with_bot: Цю команду можна налаштувати лише в інтерфейсі чату з ботом.
